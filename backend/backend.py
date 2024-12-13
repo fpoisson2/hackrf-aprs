@@ -188,59 +188,14 @@ class Backend:
                 new_freq = new_config['frequency_hz']
                 self.vars['frequency_var'].set(new_freq)
                 logger.info("Frequency updated to %s Hz.", new_freq)
-
-                # Restart Receiver to apply the new frequency
-                if self.queues['receiver']:
-                    # Stop the receiver if it's currently running
-                    if self.queues.get('receiver'):
-                        receiver = self.queues['receiver']
-                        receiver.stop()  # Stop the receiver thread
-                        self.queues['receiver_stop_event'].set()
-                        self.queues['receiver'] = None  # Clear the reference
-                        logger.info("Receiver stopped.")
-
-                    # Start a new receiver instance
-                    receiver_stop_event = threading.Event()
-                    receiver = Receiver(
-                        stop_event=receiver_stop_event,
-                        message_queue=self.queues['received_message_queue'],
-                        device_index=self.config_manager.get("device_index", 0),
-                        frequency=self.vars['frequency_var'].get(),
-                        backend=self  # Pass reference to Backend for emitting events
-                    )
-                    receiver.start()
-                    self.queues['receiver'] = receiver  # Store the new receiver instance
-                    logger.info("Receiver restarted.")
+                self.restart_receiver()
 
             # === Handle Device Index Change ===
             if 'device_index' in new_config and new_config['device_index'] != old_config.get('device_index'):
                 new_device_index = new_config['device_index']
                 self.vars['device_index_var'].set(new_device_index)
                 logger.info("Device index updated to %s.", new_device_index)
-
-
-                # Restart Receiver to apply the new frequency
-                if self.queues['receiver']:
-                    # Stop the receiver if it's currently running
-                    if self.queues.get('receiver'):
-                        receiver = self.queues['receiver']
-                        receiver.stop()  # Stop the receiver thread
-                        self.queues['receiver_stop_event'].set()
-                        self.queues['receiver'] = None  # Clear the reference
-                        logger.info("Receiver stopped.")
-
-                    # Start a new receiver instance
-                    receiver_stop_event = threading.Event()
-                    receiver = Receiver(
-                        stop_event=receiver_stop_event,
-                        message_queue=self.queues['received_message_queue'],
-                        device_index=self.config_manager.get("device_index", 0),
-                        frequency=self.vars['frequency_var'].get(),
-                        backend=self  # Pass reference to Backend for emitting events
-                    )
-                    receiver.start()
-                    self.queues['receiver'] = receiver  # Store the new receiver instance
-                    logger.info("Receiver restarted.")
+                self.restart_receiver()
 
             # === Handle Send IP or Send Port Change ===
             send_ip_changed = 'send_ip' in new_config and new_config['send_ip'] != old_config.get('send_ip')
@@ -289,6 +244,14 @@ class Backend:
                 logger.info("Carrier Only setting changed to %s.", carrier_only)
 
                 if carrier_only:
+                    """Stops and restarts the receiver with the current configuration."""
+                    if self.queues['receiver']:
+                        # Stop the current receiver
+                        self.queues['receiver'].stop()
+                        self.queues['receiver_stop_event'].set()
+                        self.queues['receiver'] = None
+                        logger.info("Receiver stopped.")
+                    time.sleep(0.5)
                     # Start Carrier Transmission if not already running
                     if not self.queues.get('carrier_transmission'):
                         carrier_stop_event = threading.Event()
@@ -308,6 +271,18 @@ class Backend:
                         self.queues['carrier_transmission'] = None
                         logger.info("Carrier Transmission stopped.")
                         self.socketio.emit('carrier_status', {'status': 'stopped'})
+                    time.sleep(0.1)
+                    receiver_stop_event = threading.Event()
+                    self.queues['receiver_stop_event'] = receiver_stop_event
+                    receiver = Receiver(
+                        stop_event=receiver_stop_event,
+                        message_queue=self.queues['received_message_queue'],
+                        device_index=self.config_manager.get("device_index", 0),
+                        frequency=self.vars['frequency_var'].get(),
+                        backend=self
+                    )
+                    receiver.start()
+                    self.queues['receiver'] = receiver                    
 
             # === Handle Other Configuration Parameters (e.g., Callsigns, Flags) ===
             # These typically don't require restarting backend components
@@ -316,6 +291,29 @@ class Backend:
             # === Final Logging ===
             logger.info("Configuration applied successfully.")
 
+    def restart_receiver(self):
+        """Stops and restarts the receiver with the current configuration."""
+        if self.queues['receiver']:
+            # Stop the current receiver
+            self.queues['receiver'].stop()
+            self.queues['receiver_stop_event'].set()
+            self.queues['receiver'] = None
+            logger.info("Receiver stopped.")
+        time.sleep(0.1)
+        
+        # Start a new receiver
+        receiver_stop_event = threading.Event()
+        self.queues['receiver_stop_event'] = receiver_stop_event
+        receiver = Receiver(
+            stop_event=receiver_stop_event,
+            message_queue=self.queues['received_message_queue'],
+            device_index=self.config_manager.get("device_index", 0),
+            frequency=self.vars['frequency_var'].get(),
+            backend=self
+        )
+        receiver.start()
+        self.queues['receiver'] = receiver
+        logger.info("Receiver restarted.")
 
 
     def run(self):
@@ -325,6 +323,17 @@ class Backend:
         try:
             self.socketio.emit('system_status', {'status': 'running'})
             while not self.queues['stop_event'].is_set():
+                self.socketio.emit('system_status', {'status': 'running'})
+
+                if self.queues['receiver']:
+                    self.socketio.emit('reception_status', {'status': 'active'})
+                else:
+                    self.socketio.emit('reception_status', {'status': 'idle'})
+
+                if self.queues['carrier_transmission']:
+                    self.socketio.emit('carrier_status', {'status': 'active'})
+                else:
+                    self.socketio.emit('carrier_status', {'status': 'idle'})
                 try:
                     message = self.queues['message_queue'].get_nowait()
                     self.message_processor.process_message(message)

@@ -1,5 +1,5 @@
 {
-    "frequency_hz": 144390000,
+    "frequency_hz": 50100000,
     "gain": 14,
     "if_gain": 47,
     "callsign_source": "VE2FPD",
@@ -7,7 +7,7 @@
     "flags_before": 50,
     "flags_after": 4,
     "send_ip": "127.0.0.1",
-    "send_port": 14582,
+    "send_port": 14583,
     "carrier_only": false,
     "device_index": 0
 }

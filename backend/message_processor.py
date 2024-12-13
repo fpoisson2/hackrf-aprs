@@ -115,7 +115,7 @@ class MessageProcessor:
             reset_hackrf()
 
             # Stop receiver before transmission if it's running
-            time.sleep(0.1)
+            
             with self.lock:
                 if self.queues.get('receiver'):
                     receiver = self.queues['receiver']
@@ -128,7 +128,7 @@ class MessageProcessor:
                 if self.queues.get('receiver_done_event'):
                     logger.info("Waiting for receiver thread to stop...")
                     self.queues['receiver_done_event'].wait()
-
+                time.sleep(0.1)
                 # Initialize transmission
                 tb = ResampleAndSend("processed_output.wav", 2205000, device_index=device_index)
                 if tb.initialize_hackrf(gain, if_gain):
@@ -148,7 +148,7 @@ class MessageProcessor:
                 else:
                     logger.error("HackRF initialization failed.")
                     self.backend.socketio.emit('system_error', {'message': 'HackRF initialization failed.'})
-                time.sleep(0.1)
+
                 # Restart receiver
                 if not self.queues.get('receiver'):
                     receiver_stop_event = threading.Event()
@@ -224,6 +224,7 @@ class MessageProcessor:
                     logger.info("Receiver stopped.")
                     self.backend.socketio.emit('reception_status', {'status': 'idle'})
 
+                time.sleep(0.1)
                 # Start a new receiver instance
                 receiver_stop_event = threading.Event()
                 receiver = Receiver(

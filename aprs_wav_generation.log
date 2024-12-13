@@ -17945,3 +17945,1621 @@ AttributeError: 'Receiver' object has no attribute 'join'
 2024-12-13 15:21:49,443 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
 2024-12-13 15:21:49,443 [DEBUG] Using proactor: IocpProactor
 2024-12-13 15:21:49,449 [INFO] Receiver thread restarted.
+2024-12-13 15:25:26,509 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:26] "GET /socket.io/?EIO=4&transport=websocket&sid=81IFcqgPPkZgJ-ziAAAA HTTP/1.1" 200 -
+2024-12-13 15:25:26,852 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:26] "GET / HTTP/1.1" 200 -
+2024-12-13 15:25:27,302 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:25:27,428 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:27] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-12-13 15:25:27,601 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:27] "GET /socket.io/?EIO=4&transport=polling&t=PF1ifZs HTTP/1.1" 200 -
+2024-12-13 15:25:27,697 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:27] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:25:27,791 [INFO] A client has connected to the server.
+2024-12-13 15:25:27,822 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:27] "POST /socket.io/?EIO=4&transport=polling&t=PF1ifcZ&sid=LJK-1vYIooftuy9tAAAC HTTP/1.1" 200 -
+2024-12-13 15:25:27,870 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:27] "GET /socket.io/?EIO=4&transport=polling&t=PF1ifcb&sid=LJK-1vYIooftuy9tAAAC HTTP/1.1" 200 -
+2024-12-13 15:25:33,146 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:25:33,177 [INFO] Processing message: test123
+2024-12-13 15:25:33,224 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:25:33,225 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:25:33,278 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:25:33,302 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:25:33,396 [DEBUG] Audio normalization not required.
+2024-12-13 15:25:33,443 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:25:33,536 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:25:33,567 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:25:33,660 [INFO] Stopping receiver thread...
+2024-12-13 15:25:33,674 [INFO] Receiver stopped.
+2024-12-13 15:25:33,676 [INFO] WAV files generated successfully.
+2024-12-13 15:25:33,745 [INFO] Receiver thread was not running.
+2024-12-13 15:25:33,746 [INFO] Receiver stopped before transmission.
+2024-12-13 15:25:33,786 [ERROR] HackRF initialization failed.
+2024-12-13 15:25:34,349 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:25:34,350 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:25:34,391 [INFO] Receiver thread restarted.
+2024-12-13 15:25:37,628 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:25:37,659 [INFO] Processing message: test123
+2024-12-13 15:25:37,722 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:25:37,800 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:25:37,831 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:25:37,846 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:25:37,894 [DEBUG] Audio normalization not required.
+2024-12-13 15:25:37,926 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:25:38,049 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:25:38,080 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:25:38,234 [INFO] WAV files generated successfully.
+2024-12-13 15:25:38,234 [INFO] Stopping receiver thread...
+2024-12-13 15:25:38,297 [INFO] Receiver stopped.
+2024-12-13 15:25:38,391 [INFO] Receiver thread was not running.
+2024-12-13 15:25:38,391 [INFO] Receiver stopped before transmission.
+2024-12-13 15:25:38,415 [INFO] Transmission started.
+2024-12-13 15:25:38,421 [DEBUG] Transmission thread started.
+2024-12-13 15:25:39,487 [INFO] Transmission done.
+2024-12-13 15:25:39,490 [INFO] Transmission stopped.
+2024-12-13 15:25:39,592 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:25:39,593 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:25:39,606 [INFO] Receiver thread restarted.
+2024-12-13 15:25:43,472 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:43] "GET /socket.io/?EIO=4&transport=websocket&sid=LJK-1vYIooftuy9tAAAC HTTP/1.1" 200 -
+2024-12-13 15:25:43,536 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:43] "GET / HTTP/1.1" 200 -
+2024-12-13 15:25:43,599 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:25:43,768 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:25:43,957 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:43] "GET /socket.io/?EIO=4&transport=polling&t=PF1ijYg HTTP/1.1" 200 -
+2024-12-13 15:25:44,035 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:44] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:25:44,223 [INFO] A client has connected to the server.
+2024-12-13 15:25:44,255 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:44] "POST /socket.io/?EIO=4&transport=polling&t=PF1ijc7&sid=OSTIF7R_3wjFZg2TAAAE HTTP/1.1" 200 -
+2024-12-13 15:25:44,256 [INFO] 127.0.0.1 - - [13/Dec/2024 15:25:44] "GET /socket.io/?EIO=4&transport=polling&t=PF1ijc7.0&sid=OSTIF7R_3wjFZg2TAAAE HTTP/1.1" 200 -
+2024-12-13 15:26:34,849 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:26:34,895 [INFO] Processing message: test123
+2024-12-13 15:26:34,927 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:26:34,942 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:26:34,991 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:26:35,005 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:26:35,020 [DEBUG] Audio normalization not required.
+2024-12-13 15:26:35,051 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:26:35,145 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:26:35,176 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:26:35,378 [INFO] WAV files generated successfully.
+2024-12-13 15:26:35,471 [INFO] Stopping receiver thread...
+2024-12-13 15:26:35,518 [INFO] Receiver stopped.
+2024-12-13 15:26:36,158 [INFO] Receiver thread was not running.
+2024-12-13 15:26:36,159 [INFO] Receiver stopped before transmission.
+2024-12-13 15:26:36,182 [INFO] Transmission started.
+2024-12-13 15:26:36,186 [DEBUG] Transmission thread started.
+2024-12-13 15:26:37,252 [INFO] Transmission done.
+2024-12-13 15:26:37,255 [INFO] Transmission stopped.
+2024-12-13 15:26:37,359 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:26:37,359 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:26:37,388 [INFO] Receiver thread restarted.
+2024-12-13 15:26:39,188 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:26:39,250 [INFO] Processing message: test123
+2024-12-13 15:26:39,312 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:26:39,343 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:26:39,406 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:26:39,453 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:26:39,547 [DEBUG] Audio normalization not required.
+2024-12-13 15:26:39,594 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:26:39,718 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:26:39,749 [INFO] Stopping receiver thread...
+2024-12-13 15:26:39,749 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:26:39,796 [INFO] Receiver stopped.
+2024-12-13 15:26:39,810 [INFO] WAV files generated successfully.
+2024-12-13 15:26:39,862 [INFO] Receiver thread was not running.
+2024-12-13 15:26:39,862 [INFO] Receiver stopped before transmission.
+2024-12-13 15:26:39,876 [ERROR] HackRF initialization failed.
+2024-12-13 15:26:39,977 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:26:39,978 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:26:40,046 [INFO] Receiver thread restarted.
+2024-12-13 15:26:43,319 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:26:43,350 [INFO] Processing message: test123
+2024-12-13 15:26:43,396 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:26:43,428 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:26:43,467 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:26:43,490 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:26:43,567 [DEBUG] Audio normalization not required.
+2024-12-13 15:26:43,690 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:26:43,769 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:26:43,785 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:26:43,832 [INFO] Stopping receiver thread...
+2024-12-13 15:26:43,847 [INFO] Receiver stopped.
+2024-12-13 15:26:43,851 [INFO] WAV files generated successfully.
+2024-12-13 15:26:43,933 [INFO] Receiver thread was not running.
+2024-12-13 15:26:43,933 [INFO] Receiver stopped before transmission.
+2024-12-13 15:26:43,960 [INFO] Transmission started.
+2024-12-13 15:26:43,965 [DEBUG] Transmission thread started.
+2024-12-13 15:26:45,031 [INFO] Transmission done.
+2024-12-13 15:26:45,035 [INFO] Transmission stopped.
+2024-12-13 15:26:45,138 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:26:45,138 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:26:45,145 [INFO] Receiver thread restarted.
+2024-12-13 15:29:23,451 [INFO] Configuration loaded from config.json.
+2024-12-13 15:29:23,451 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:29:23,451 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:29:23,451 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:29:23,461 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:29:23,471 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:29:23,471 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:29:23,913 [INFO] Backend thread started.
+2024-12-13 15:29:24,684 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:29:24,705 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:29:24,815 [INFO] 127.0.0.1 - - [13/Dec/2024 15:29:24] "GET /socket.io/?EIO=4&transport=polling&t=PF1jZ6p HTTP/1.1" 200 -
+2024-12-13 15:29:24,915 [INFO] A client has connected to the server.
+2024-12-13 15:29:24,935 [INFO] 127.0.0.1 - - [13/Dec/2024 15:29:24] "POST /socket.io/?EIO=4&transport=polling&t=PF1jZWN&sid=SqwHiJ2uxROFjXj8AAAA HTTP/1.1" 200 -
+2024-12-13 15:29:25,015 [INFO] 127.0.0.1 - - [13/Dec/2024 15:29:25] "GET /socket.io/?EIO=4&transport=polling&t=PF1jZWO&sid=SqwHiJ2uxROFjXj8AAAA HTTP/1.1" 200 -
+2024-12-13 15:29:30,215 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:29:30,235 [INFO] Processing message: test123
+2024-12-13 15:29:30,266 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:29:30,306 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:29:30,316 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:29:30,345 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:29:30,396 [DEBUG] Audio normalization not required.
+2024-12-13 15:29:30,415 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:29:30,515 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:29:30,525 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:29:30,676 [INFO] WAV files generated successfully.
+2024-12-13 15:29:30,796 [INFO] Stopping receiver thread...
+2024-12-13 15:29:30,806 [INFO] Receiver stopped.
+2024-12-13 15:29:30,866 [INFO] Receiver thread was not running.
+2024-12-13 15:29:30,866 [INFO] Receiver stopped before transmission.
+2024-12-13 15:29:30,876 [ERROR] HackRF initialization failed.
+2024-12-13 15:29:31,186 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:29:31,188 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:29:31,208 [INFO] Receiver thread restarted.
+2024-12-13 15:29:35,509 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:29:35,519 [INFO] Processing message: test123
+2024-12-13 15:29:35,539 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:29:35,539 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:29:35,579 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:29:35,619 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:29:35,679 [DEBUG] Audio normalization not required.
+2024-12-13 15:29:35,709 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:29:35,820 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:29:35,830 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:29:35,970 [INFO] WAV files generated successfully.
+2024-12-13 15:29:36,150 [INFO] Stopping receiver thread...
+2024-12-13 15:29:36,171 [INFO] Receiver stopped.
+2024-12-13 15:29:36,251 [INFO] Receiver thread was not running.
+2024-12-13 15:29:36,251 [INFO] Receiver stopped before transmission.
+2024-12-13 15:29:36,271 [INFO] Transmission started.
+2024-12-13 15:29:36,281 [DEBUG] Transmission thread started.
+2024-12-13 15:29:37,348 [INFO] Transmission done.
+2024-12-13 15:29:37,348 [INFO] Transmission stopped.
+2024-12-13 15:29:37,654 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:29:37,654 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:29:37,661 [INFO] Receiver thread restarted.
+2024-12-13 15:29:39,942 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:29:39,963 [INFO] Processing message: test123
+2024-12-13 15:29:40,023 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:29:40,043 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:29:40,065 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:29:40,123 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:29:40,173 [DEBUG] Audio normalization not required.
+2024-12-13 15:29:40,243 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:29:40,323 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:29:40,333 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:29:40,473 [INFO] WAV files generated successfully.
+2024-12-13 15:29:40,625 [INFO] Stopping receiver thread...
+2024-12-13 15:29:40,645 [INFO] Receiver stopped.
+2024-12-13 15:29:40,706 [INFO] Receiver thread was not running.
+2024-12-13 15:29:40,706 [INFO] Receiver stopped before transmission.
+2024-12-13 15:29:40,716 [ERROR] HackRF initialization failed.
+2024-12-13 15:29:41,024 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:29:41,024 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:29:41,057 [INFO] Receiver thread restarted.
+2024-12-13 15:29:43,316 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:29:43,346 [INFO] Processing message: test123
+2024-12-13 15:29:43,396 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:29:43,416 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:29:43,437 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:29:43,487 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:29:43,537 [DEBUG] Audio normalization not required.
+2024-12-13 15:29:43,547 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:29:43,598 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:29:43,618 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:29:43,769 [INFO] WAV files generated successfully.
+2024-12-13 15:29:43,919 [INFO] Stopping receiver thread...
+2024-12-13 15:29:43,939 [INFO] Receiver stopped.
+2024-12-13 15:29:44,009 [INFO] Receiver thread was not running.
+2024-12-13 15:29:44,009 [INFO] Receiver stopped before transmission.
+2024-12-13 15:29:44,029 [INFO] Transmission started.
+2024-12-13 15:29:44,039 [DEBUG] Transmission thread started.
+2024-12-13 15:29:45,105 [INFO] Transmission done.
+2024-12-13 15:29:45,105 [INFO] Transmission stopped.
+2024-12-13 15:29:45,413 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:29:45,426 [INFO] Receiver thread restarted.
+2024-12-13 15:29:45,426 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:29:47,876 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:29:47,896 [INFO] Processing message: test123
+2024-12-13 15:29:47,946 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:29:47,956 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:29:47,976 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:29:48,007 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:29:48,077 [DEBUG] Audio normalization not required.
+2024-12-13 15:29:48,127 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:29:48,218 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:29:48,238 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:29:48,368 [INFO] WAV files generated successfully.
+2024-12-13 15:29:48,488 [INFO] Stopping receiver thread...
+2024-12-13 15:29:48,508 [INFO] Receiver stopped.
+2024-12-13 15:29:48,589 [INFO] Receiver thread was not running.
+2024-12-13 15:29:48,589 [INFO] Receiver stopped before transmission.
+2024-12-13 15:29:48,609 [INFO] Transmission started.
+2024-12-13 15:29:48,609 [DEBUG] Transmission thread started.
+2024-12-13 15:29:49,675 [INFO] Transmission done.
+2024-12-13 15:29:49,675 [INFO] Transmission stopped.
+2024-12-13 15:29:49,986 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:29:49,986 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:29:50,008 [INFO] Receiver thread restarted.
+2024-12-13 15:30:31,562 [INFO] Configuration loaded from config.json.
+2024-12-13 15:30:31,562 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:30:31,562 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:30:31,562 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:30:31,562 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:30:31,582 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:30:31,592 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:30:31,693 [INFO] Backend thread started.
+2024-12-13 15:30:32,752 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:30:32,762 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:30:32,842 [INFO] 127.0.0.1 - - [13/Dec/2024 15:30:32] "GET /socket.io/?EIO=4&transport=polling&t=PF1jpj9 HTTP/1.1" 200 -
+2024-12-13 15:30:32,983 [INFO] A client has connected to the server.
+2024-12-13 15:30:33,024 [INFO] 127.0.0.1 - - [13/Dec/2024 15:30:33] "GET /socket.io/?EIO=4&transport=polling&t=PF1jq7L&sid=vcmaArkRkXhVuxUaAAAA HTTP/1.1" 200 -
+2024-12-13 15:30:33,034 [INFO] 127.0.0.1 - - [13/Dec/2024 15:30:33] "POST /socket.io/?EIO=4&transport=polling&t=PF1jq7J&sid=vcmaArkRkXhVuxUaAAAA HTTP/1.1" 200 -
+2024-12-13 15:30:40,807 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:30:40,837 [INFO] Processing message: test123
+2024-12-13 15:30:40,897 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:30:40,917 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:30:40,947 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:30:40,987 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:30:41,087 [DEBUG] Audio normalization not required.
+2024-12-13 15:30:41,158 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:30:41,188 [INFO] Stopping receiver thread...
+2024-12-13 15:30:41,218 [INFO] Receiver stopped.
+2024-12-13 15:30:41,218 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:30:41,218 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:30:41,218 [INFO] WAV files generated successfully.
+2024-12-13 15:30:41,268 [INFO] Receiver thread was not running.
+2024-12-13 15:30:41,268 [INFO] Receiver stopped before transmission.
+2024-12-13 15:30:41,398 [INFO] Transmission started.
+2024-12-13 15:30:41,398 [DEBUG] Transmission thread started.
+2024-12-13 15:30:42,471 [INFO] Transmission done.
+2024-12-13 15:30:42,471 [INFO] Transmission stopped.
+2024-12-13 15:30:42,580 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:30:42,580 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:30:42,632 [INFO] Receiver thread restarted.
+2024-12-13 15:30:44,734 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:30:44,754 [INFO] Processing message: test123
+2024-12-13 15:30:44,814 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:30:44,864 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:30:44,884 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:30:44,904 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:30:44,955 [DEBUG] Audio normalization not required.
+2024-12-13 15:30:45,005 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:30:45,055 [INFO] Stopping receiver thread...
+2024-12-13 15:30:45,085 [INFO] Receiver stopped.
+2024-12-13 15:30:45,085 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:30:45,085 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:30:45,136 [INFO] WAV files generated successfully.
+2024-12-13 15:30:45,156 [INFO] Receiver thread was not running.
+2024-12-13 15:30:45,156 [INFO] Receiver stopped before transmission.
+2024-12-13 15:30:45,288 [INFO] Transmission started.
+2024-12-13 15:30:45,288 [DEBUG] Transmission thread started.
+2024-12-13 15:30:46,355 [INFO] Transmission done.
+2024-12-13 15:30:46,364 [INFO] Transmission stopped.
+2024-12-13 15:30:46,469 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:30:46,469 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:30:46,486 [INFO] Receiver thread restarted.
+2024-12-13 15:30:48,165 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:30:48,185 [INFO] Processing message: test123
+2024-12-13 15:30:48,216 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:30:48,246 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:30:48,286 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:30:48,316 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:30:48,326 [DEBUG] Audio normalization not required.
+2024-12-13 15:30:48,386 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:30:48,538 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:30:48,538 [INFO] Stopping receiver thread...
+2024-12-13 15:30:48,548 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:30:48,578 [INFO] Receiver stopped.
+2024-12-13 15:30:48,578 [INFO] WAV files generated successfully.
+2024-12-13 15:30:48,668 [INFO] Receiver thread was not running.
+2024-12-13 15:30:48,668 [INFO] Receiver stopped before transmission.
+2024-12-13 15:30:48,799 [INFO] Transmission started.
+2024-12-13 15:30:48,809 [DEBUG] Transmission thread started.
+2024-12-13 15:30:49,877 [INFO] Transmission done.
+2024-12-13 15:30:49,877 [INFO] Transmission stopped.
+2024-12-13 15:30:49,985 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:30:49,985 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:30:50,008 [INFO] Receiver thread restarted.
+2024-12-13 15:30:51,865 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:30:51,885 [INFO] Processing message: test123
+2024-12-13 15:30:51,965 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:30:51,985 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:30:52,006 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:30:52,016 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:30:52,076 [DEBUG] Audio normalization not required.
+2024-12-13 15:30:52,106 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:30:52,186 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:30:52,217 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:30:52,247 [INFO] Stopping receiver thread...
+2024-12-13 15:30:52,297 [INFO] Receiver stopped.
+2024-12-13 15:30:52,297 [INFO] WAV files generated successfully.
+2024-12-13 15:30:52,357 [INFO] Receiver thread was not running.
+2024-12-13 15:30:52,357 [INFO] Receiver stopped before transmission.
+2024-12-13 15:30:52,488 [INFO] Transmission started.
+2024-12-13 15:30:52,488 [DEBUG] Transmission thread started.
+2024-12-13 15:30:53,556 [INFO] Transmission done.
+2024-12-13 15:30:53,556 [INFO] Transmission stopped.
+2024-12-13 15:30:53,667 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:30:53,667 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:30:53,707 [INFO] Receiver thread restarted.
+2024-12-13 15:31:03,566 [INFO] Configuration loaded from config.json.
+2024-12-13 15:31:03,566 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:31:03,566 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:31:03,566 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:31:03,566 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:31:03,582 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:31:03,582 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:31:03,623 [INFO] Backend thread started.
+2024-12-13 15:31:05,077 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:31:05,097 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:31:05,178 [INFO] 127.0.0.1 - - [13/Dec/2024 15:31:05] "GET /socket.io/?EIO=4&transport=polling&t=PF1jxXA HTTP/1.1" 200 -
+2024-12-13 15:31:05,308 [INFO] A client has connected to the server.
+2024-12-13 15:31:05,318 [INFO] 127.0.0.1 - - [13/Dec/2024 15:31:05] "POST /socket.io/?EIO=4&transport=polling&t=PF1jy10&sid=AsLV7v5U4_z-f7UGAAAA HTTP/1.1" 200 -
+2024-12-13 15:31:05,378 [INFO] 127.0.0.1 - - [13/Dec/2024 15:31:05] "GET /socket.io/?EIO=4&transport=polling&t=PF1jy11&sid=AsLV7v5U4_z-f7UGAAAA HTTP/1.1" 200 -
+2024-12-13 15:31:06,340 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:31:06,350 [INFO] Processing message: test123
+2024-12-13 15:31:06,380 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:31:06,380 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:31:06,420 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:31:06,450 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:31:06,530 [DEBUG] Audio normalization not required.
+2024-12-13 15:31:06,560 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:31:06,630 [INFO] Stopping receiver thread...
+2024-12-13 15:31:06,651 [INFO] Receiver stopped.
+2024-12-13 15:31:06,651 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:31:06,654 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:31:06,691 [INFO] WAV files generated successfully.
+2024-12-13 15:31:06,711 [INFO] Receiver thread was not running.
+2024-12-13 15:31:06,711 [INFO] Receiver stopped before transmission.
+2024-12-13 15:31:06,841 [INFO] Transmission started.
+2024-12-13 15:31:06,851 [DEBUG] Transmission thread started.
+2024-12-13 15:31:07,914 [INFO] Transmission done.
+2024-12-13 15:31:07,924 [INFO] Transmission stopped.
+2024-12-13 15:31:07,924 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:31:07,924 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:31:07,944 [INFO] Receiver thread restarted.
+2024-12-13 15:31:09,540 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:31:09,550 [INFO] Processing message: test123
+2024-12-13 15:31:09,570 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:31:09,661 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:31:09,711 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:31:09,731 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:31:09,781 [DEBUG] Audio normalization not required.
+2024-12-13 15:31:09,881 [INFO] Stopping receiver thread...
+2024-12-13 15:31:09,901 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:31:09,901 [INFO] Receiver stopped.
+2024-12-13 15:31:09,901 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:31:09,901 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:31:09,901 [INFO] WAV files generated successfully.
+2024-12-13 15:31:09,992 [INFO] Receiver thread was not running.
+2024-12-13 15:31:09,992 [INFO] Receiver stopped before transmission.
+2024-12-13 15:31:10,123 [INFO] Transmission started.
+2024-12-13 15:31:10,133 [DEBUG] Transmission thread started.
+2024-12-13 15:31:11,199 [INFO] Transmission done.
+2024-12-13 15:31:11,199 [INFO] Transmission stopped.
+2024-12-13 15:31:11,208 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:31:11,208 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:31:11,228 [INFO] Receiver thread restarted.
+2024-12-13 15:34:39,708 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:34:39,739 [INFO] Processing message: test123
+2024-12-13 15:34:39,759 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:34:39,769 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:34:39,819 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:34:39,849 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:34:39,849 [DEBUG] Audio normalization not required.
+2024-12-13 15:34:39,869 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:34:39,950 [INFO] Stopping receiver thread...
+2024-12-13 15:34:39,950 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:34:39,950 [INFO] Receiver stopped.
+2024-12-13 15:34:39,950 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:34:39,969 [INFO] WAV files generated successfully.
+2024-12-13 15:34:40,592 [INFO] Receiver thread was not running.
+2024-12-13 15:34:40,592 [INFO] Receiver stopped before transmission.
+2024-12-13 15:34:40,733 [INFO] Transmission started.
+2024-12-13 15:34:40,733 [DEBUG] Transmission thread started.
+2024-12-13 15:34:41,800 [INFO] Transmission done.
+2024-12-13 15:34:41,810 [INFO] Transmission stopped.
+2024-12-13 15:34:41,810 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:34:41,810 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:34:41,820 [INFO] Receiver thread restarted.
+2024-12-13 15:34:48,432 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:48] "GET /socket.io/?EIO=4&transport=websocket&sid=AsLV7v5U4_z-f7UGAAAA HTTP/1.1" 200 -
+2024-12-13 15:34:48,502 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:48] "GET / HTTP/1.1" 200 -
+2024-12-13 15:34:48,733 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:34:48,784 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:34:48,844 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:48] "GET /socket.io/?EIO=4&transport=polling&t=PF1kobV HTTP/1.1" 200 -
+2024-12-13 15:34:48,854 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:48] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:34:48,945 [INFO] A client has connected to the server.
+2024-12-13 15:34:48,955 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:48] "POST /socket.io/?EIO=4&transport=polling&t=PF1kodD&sid=z-dELM2RJxDqaeOwAAAC HTTP/1.1" 200 -
+2024-12-13 15:34:49,016 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:49] "GET /socket.io/?EIO=4&transport=polling&t=PF1kodF&sid=z-dELM2RJxDqaeOwAAAC HTTP/1.1" 200 -
+2024-12-13 15:34:58,017 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:34:58,062 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:34:58,078 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:34:58,109 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:34:58,140 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:34:58,156 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:34:58,171 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:34:58,186 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:34:58,202 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:34:58,218 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:34:58,249 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:34:58,249 [INFO] Configuration update completed.
+2024-12-13 15:34:58,326 [INFO] Configuration saved to config.json.
+2024-12-13 15:34:58,342 [INFO] Frequency updated to 144380000 Hz.
+2024-12-13 15:34:58,357 [INFO] Stopping receiver thread...
+2024-12-13 15:34:58,373 [INFO] Receiver stopped.
+2024-12-13 15:34:58,439 [INFO] Receiver thread was not running.
+2024-12-13 15:34:58,439 [INFO] Receiver stopped.
+2024-12-13 15:34:58,441 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:34:58,441 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:34:58,451 [INFO] Receiver restarted.
+2024-12-13 15:34:58,498 [INFO] Configuration applied successfully.
+2024-12-13 15:34:58,513 [INFO] Configuration updated successfully.
+2024-12-13 15:34:58,544 [INFO] 127.0.0.1 - - [13/Dec/2024 15:34:58] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:35:01,330 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:01] "GET /socket.io/?EIO=4&transport=websocket&sid=z-dELM2RJxDqaeOwAAAC HTTP/1.1" 200 -
+2024-12-13 15:35:01,378 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:01] "GET / HTTP/1.1" 200 -
+2024-12-13 15:35:01,582 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:35:01,597 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:35:01,756 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:01] "GET /socket.io/?EIO=4&transport=polling&t=PF1krkX HTTP/1.1" 200 -
+2024-12-13 15:35:01,803 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:01] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:35:01,959 [INFO] A client has connected to the server.
+2024-12-13 15:35:01,990 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:01] "POST /socket.io/?EIO=4&transport=polling&t=PF1krnT&sid=5qXrhn1Uz24wAP4mAAAE HTTP/1.1" 200 -
+2024-12-13 15:35:02,021 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:02] "GET /socket.io/?EIO=4&transport=polling&t=PF1krnU&sid=5qXrhn1Uz24wAP4mAAAE HTTP/1.1" 200 -
+2024-12-13 15:35:08,663 [INFO] Restarting receiver...
+2024-12-13 15:35:08,709 [DEBUG] Stopping receiver thread.
+2024-12-13 15:35:08,724 [INFO] Stopping receiver thread...
+2024-12-13 15:35:08,741 [INFO] Receiver stopped.
+2024-12-13 15:35:08,788 [INFO] Receiver thread was not running.
+2024-12-13 15:35:08,788 [INFO] Receiver thread stopped successfully.
+2024-12-13 15:35:08,789 [INFO] Receiver stopped.
+2024-12-13 15:35:08,790 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:35:08,791 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:35:08,818 [INFO] Receiver restarted successfully.
+2024-12-13 15:35:08,850 [INFO] Reception restarted successfully.
+2024-12-13 15:35:08,866 [INFO] 127.0.0.1 - - [13/Dec/2024 15:35:08] "POST /api/restart_reception HTTP/1.1" 200 -
+2024-12-13 15:36:05,510 [INFO] 127.0.0.1 - - [13/Dec/2024 15:36:05] "GET /socket.io/?EIO=4&transport=websocket&sid=5qXrhn1Uz24wAP4mAAAE HTTP/1.1" 200 -
+2024-12-13 15:37:08,622 [INFO] 127.0.0.1 - - [13/Dec/2024 15:37:08] "GET /socket.io/?EIO=4&transport=polling&t=PF1lKjF HTTP/1.1" 200 -
+2024-12-13 15:37:08,824 [INFO] A client has connected to the server.
+2024-12-13 15:37:08,839 [INFO] 127.0.0.1 - - [13/Dec/2024 15:37:08] "POST /socket.io/?EIO=4&transport=polling&t=PF1lKlU&sid=cW-dQM850TI0EU3dAAAG HTTP/1.1" 200 -
+2024-12-13 15:37:08,948 [INFO] 127.0.0.1 - - [13/Dec/2024 15:37:08] "GET /socket.io/?EIO=4&transport=polling&t=PF1lKlV&sid=cW-dQM850TI0EU3dAAAG HTTP/1.1" 200 -
+2024-12-13 15:38:12,108 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:38:12,118 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:38:12,128 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:38:12,138 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:38:12,148 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:38:12,158 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:38:12,168 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:38:12,178 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:38:12,188 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:38:12,198 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:38:12,208 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:38:12,229 [INFO] Configuration update completed.
+2024-12-13 15:38:12,279 [INFO] Configuration saved to config.json.
+2024-12-13 15:38:12,289 [INFO] Frequency updated to 144390000 Hz.
+2024-12-13 15:38:12,299 [INFO] Stopping receiver thread...
+2024-12-13 15:38:12,309 [INFO] Receiver stopped.
+2024-12-13 15:38:12,967 [INFO] Receiver thread was not running.
+2024-12-13 15:38:12,968 [INFO] Receiver stopped.
+2024-12-13 15:38:12,969 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:38:12,969 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:38:12,979 [INFO] Receiver restarted.
+2024-12-13 15:38:13,042 [INFO] Configuration applied successfully.
+2024-12-13 15:38:13,073 [INFO] Configuration updated successfully.
+2024-12-13 15:38:13,074 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:13] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:38:23,977 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:23] "GET /socket.io/?EIO=4&transport=websocket&sid=cW-dQM850TI0EU3dAAAG HTTP/1.1" 200 -
+2024-12-13 15:38:23,977 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:23] "GET / HTTP/1.1" 200 -
+2024-12-13 15:38:24,164 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:38:24,288 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:38:24,492 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:24] "GET /socket.io/?EIO=4&transport=polling&t=PF1ldD6 HTTP/1.1" 200 -
+2024-12-13 15:38:24,492 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:24] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:38:24,696 [INFO] A client has connected to the server.
+2024-12-13 15:38:24,744 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:24] "POST /socket.io/?EIO=4&transport=polling&t=PF1ldHR&sid=e8Ifb5GyCVTKjrudAAAI HTTP/1.1" 200 -
+2024-12-13 15:38:24,916 [INFO] 127.0.0.1 - - [13/Dec/2024 15:38:24] "GET /socket.io/?EIO=4&transport=polling&t=PF1ldHS&sid=e8Ifb5GyCVTKjrudAAAI HTTP/1.1" 200 -
+2024-12-13 15:40:29,324 [INFO] Configuration loaded from config.json.
+2024-12-13 15:40:29,325 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:40:29,326 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:40:29,327 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:40:29,327 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:40:29,364 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:40:29,394 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:40:29,514 [INFO] Backend thread started.
+2024-12-13 15:40:31,405 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:40:31,420 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:40:31,609 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:31] "GET /socket.io/?EIO=4&transport=polling&t=PF1m5i_ HTTP/1.1" 200 -
+2024-12-13 15:40:31,719 [INFO] A client has connected to the server.
+2024-12-13 15:40:31,734 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:31] "POST /socket.io/?EIO=4&transport=polling&t=PF1m6J9&sid=qh-lUE5Oe8SAAu-ZAAAA HTTP/1.1" 200 -
+2024-12-13 15:40:31,813 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:31] "GET /socket.io/?EIO=4&transport=polling&t=PF1m6JB&sid=qh-lUE5Oe8SAAu-ZAAAA HTTP/1.1" 200 -
+2024-12-13 15:40:33,546 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:40:33,547 [INFO] Processing message: test123
+2024-12-13 15:40:33,578 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:40:33,610 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:40:33,647 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:40:33,687 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:40:33,719 [DEBUG] Audio normalization not required.
+2024-12-13 15:40:33,767 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:40:33,813 [INFO] Stopping receiver thread...
+2024-12-13 15:40:33,828 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:40:33,829 [INFO] Receiver stopped.
+2024-12-13 15:40:33,830 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:40:33,841 [INFO] WAV files generated successfully.
+2024-12-13 15:40:33,905 [INFO] Receiver thread was not running.
+2024-12-13 15:40:33,905 [INFO] Receiver stopped before transmission.
+2024-12-13 15:40:34,034 [INFO] Transmission started.
+2024-12-13 15:40:34,041 [DEBUG] Transmission thread started.
+2024-12-13 15:40:35,106 [INFO] Transmission done.
+2024-12-13 15:40:35,112 [INFO] Transmission stopped.
+2024-12-13 15:40:35,115 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:40:35,115 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:40:35,124 [INFO] Receiver thread restarted.
+2024-12-13 15:40:37,988 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:37] "GET /socket.io/?EIO=4&transport=websocket&sid=qh-lUE5Oe8SAAu-ZAAAA HTTP/1.1" 200 -
+2024-12-13 15:40:38,381 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:38] "GET / HTTP/1.1" 200 -
+2024-12-13 15:40:38,710 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:40:38,741 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:40:38,883 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:38] "GET /socket.io/?EIO=4&transport=polling&t=PF1m829 HTTP/1.1" 200 -
+2024-12-13 15:40:38,898 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:38] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:40:39,054 [INFO] A client has connected to the server.
+2024-12-13 15:40:39,070 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:39] "POST /socket.io/?EIO=4&transport=polling&t=PF1m853&sid=yzoZPcpt_b8Ih9ekAAAC HTTP/1.1" 200 -
+2024-12-13 15:40:39,210 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:39] "GET /socket.io/?EIO=4&transport=polling&t=PF1m854&sid=yzoZPcpt_b8Ih9ekAAAC HTTP/1.1" 200 -
+2024-12-13 15:40:44,756 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:40:44,771 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:40:44,803 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:40:44,835 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:40:44,866 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:40:44,897 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:40:44,912 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:40:44,944 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:40:45,022 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:40:45,038 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:40:45,054 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:40:45,069 [INFO] Configuration update completed.
+2024-12-13 15:40:45,148 [INFO] Configuration saved to config.json.
+2024-12-13 15:40:45,164 [INFO] Frequency updated to 144380000 Hz.
+2024-12-13 15:40:45,179 [INFO] Stopping receiver thread...
+2024-12-13 15:40:45,195 [INFO] Receiver stopped.
+2024-12-13 15:40:45,262 [INFO] Receiver thread was not running.
+2024-12-13 15:40:45,262 [INFO] Receiver stopped.
+2024-12-13 15:40:45,263 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:40:45,272 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:40:45,272 [INFO] Receiver restarted.
+2024-12-13 15:40:45,320 [INFO] Configuration applied successfully.
+2024-12-13 15:40:45,460 [INFO] Configuration updated successfully.
+2024-12-13 15:40:45,476 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:45] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:40:47,493 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:47] "GET / HTTP/1.1" 200 -
+2024-12-13 15:40:47,493 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:47] "GET /socket.io/?EIO=4&transport=websocket&sid=yzoZPcpt_b8Ih9ekAAAC HTTP/1.1" 200 -
+2024-12-13 15:40:47,663 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:40:47,692 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:40:47,864 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:47] "GET /socket.io/?EIO=4&transport=polling&t=PF1mAD_ HTTP/1.1" 200 -
+2024-12-13 15:40:47,896 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:47] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:40:47,989 [INFO] A client has connected to the server.
+2024-12-13 15:40:48,021 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:48] "POST /socket.io/?EIO=4&transport=polling&t=PF1mAGv&sid=tAErf6tKFdUzTLquAAAE HTTP/1.1" 200 -
+2024-12-13 15:40:48,114 [INFO] 127.0.0.1 - - [13/Dec/2024 15:40:48] "GET /socket.io/?EIO=4&transport=polling&t=PF1mAGw&sid=tAErf6tKFdUzTLquAAAE HTTP/1.1" 200 -
+2024-12-13 15:41:18,542 [INFO] Configuration loaded from config.json.
+2024-12-13 15:41:18,542 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:41:18,552 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:41:18,552 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:41:18,552 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:41:18,572 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:41:18,572 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:41:18,602 [INFO] Backend thread started.
+2024-12-13 15:41:19,708 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:41:19,718 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:41:19,778 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:19] "GET /socket.io/?EIO=4&transport=polling&t=PF1mHwE HTTP/1.1" 200 -
+2024-12-13 15:41:19,860 [INFO] A client has connected to the server.
+2024-12-13 15:41:19,869 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:19] "POST /socket.io/?EIO=4&transport=polling&t=PF1mI3D&sid=ZFwXuBkD5QZrd9Z2AAAA HTTP/1.1" 200 -
+2024-12-13 15:41:19,929 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:19] "GET /socket.io/?EIO=4&transport=polling&t=PF1mI3E&sid=ZFwXuBkD5QZrd9Z2AAAA HTTP/1.1" 200 -
+2024-12-13 15:41:25,466 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:41:25,479 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:41:25,509 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:41:25,519 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:41:25,529 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:41:25,539 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:41:25,549 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:41:25,559 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:41:25,569 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:41:25,579 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:41:25,599 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:41:25,609 [INFO] Configuration update completed.
+2024-12-13 15:41:25,639 [INFO] Configuration saved to config.json.
+2024-12-13 15:41:25,649 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:41:25,659 [INFO] Stopping receiver thread...
+2024-12-13 15:41:25,670 [INFO] Receiver stopped.
+2024-12-13 15:41:25,765 [INFO] Receiver thread was not running.
+2024-12-13 15:41:25,770 [INFO] Receiver stopped.
+2024-12-13 15:41:25,770 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:41:25,790 [INFO] Carrier Transmission started.
+2024-12-13 15:41:25,790 [INFO] Configuration applied successfully.
+2024-12-13 15:41:25,800 [INFO] Configuration updated successfully.
+2024-12-13 15:41:25,803 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:25] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:41:25,804 [INFO] Carrier-only transmission started.
+2024-12-13 15:41:28,006 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "GET /socket.io/?EIO=4&transport=websocket&sid=ZFwXuBkD5QZrd9Z2AAAA HTTP/1.1" 200 -
+2024-12-13 15:41:28,019 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "GET / HTTP/1.1" 200 -
+2024-12-13 15:41:28,083 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:41:28,084 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:41:28,092 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "GET /socket.io/?EIO=4&transport=polling&t=PF1mK4P HTTP/1.1" 200 -
+2024-12-13 15:41:28,092 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:41:28,100 [INFO] A client has connected to the server.
+2024-12-13 15:41:28,101 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "POST /socket.io/?EIO=4&transport=polling&t=PF1mK4V&sid=xJzbHHfn8EpAeUVdAAAC HTTP/1.1" 200 -
+2024-12-13 15:41:28,105 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:28] "GET /socket.io/?EIO=4&transport=polling&t=PF1mK4V.0&sid=xJzbHHfn8EpAeUVdAAAC HTTP/1.1" 200 -
+2024-12-13 15:41:31,980 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:41:31,980 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:41:31,981 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:41:31,981 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:41:31,982 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:41:31,982 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:41:31,982 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:41:31,983 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:41:31,983 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:41:31,984 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:41:31,985 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:41:31,985 [INFO] Configuration update completed.
+2024-12-13 15:41:31,987 [INFO] Configuration saved to config.json.
+2024-12-13 15:41:31,987 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:41:31,987 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:41:34,068 [INFO] Carrier-only transmission stopped.
+2024-12-13 15:41:34,068 [INFO] Carrier-only transmission thread stopped.
+2024-12-13 15:41:34,070 [INFO] Carrier Transmission stopped.
+2024-12-13 15:41:34,070 [INFO] Configuration applied successfully.
+2024-12-13 15:41:34,070 [INFO] Configuration updated successfully.
+2024-12-13 15:41:34,071 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:34] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:41:35,595 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "GET /socket.io/?EIO=4&transport=websocket&sid=xJzbHHfn8EpAeUVdAAAC HTTP/1.1" 200 -
+2024-12-13 15:41:35,603 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "GET / HTTP/1.1" 200 -
+2024-12-13 15:41:35,613 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:41:35,614 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:41:35,620 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "GET /socket.io/?EIO=4&transport=polling&t=PF1mLw1 HTTP/1.1" 200 -
+2024-12-13 15:41:35,621 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:41:35,630 [INFO] A client has connected to the server.
+2024-12-13 15:41:35,631 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "POST /socket.io/?EIO=4&transport=polling&t=PF1mLwA&sid=ZUK37neuUCgEu6QMAAAE HTTP/1.1" 200 -
+2024-12-13 15:41:35,631 [INFO] 127.0.0.1 - - [13/Dec/2024 15:41:35] "GET /socket.io/?EIO=4&transport=polling&t=PF1mLwB&sid=ZUK37neuUCgEu6QMAAAE HTTP/1.1" 200 -
+2024-12-13 15:42:14,037 [INFO] Configuration loaded from config.json.
+2024-12-13 15:42:14,037 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:42:14,037 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:42:14,037 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:42:14,057 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:42:14,067 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:42:14,077 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:42:14,177 [INFO] Backend thread started.
+2024-12-13 15:42:15,394 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:42:15,404 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:42:15,494 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:15] "GET /socket.io/?EIO=4&transport=polling&t=PF1mVLe HTTP/1.1" 200 -
+2024-12-13 15:42:15,585 [INFO] A client has connected to the server.
+2024-12-13 15:42:15,595 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:15] "POST /socket.io/?EIO=4&transport=polling&t=PF1mVfw&sid=rbmvoehqi-qaF04HAAAA HTTP/1.1" 200 -
+2024-12-13 15:42:15,605 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:15] "GET /socket.io/?EIO=4&transport=polling&t=PF1mVfw.0&sid=rbmvoehqi-qaF04HAAAA HTTP/1.1" 200 -
+2024-12-13 15:42:17,976 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:17] "GET /socket.io/?EIO=4&transport=websocket&sid=rbmvoehqi-qaF04HAAAA HTTP/1.1" 200 -
+2024-12-13 15:42:18,136 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:18] "GET / HTTP/1.1" 200 -
+2024-12-13 15:42:18,359 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:42:18,409 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:42:18,489 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:18] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:18,504 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:18] "GET /socket.io/?EIO=4&transport=polling&t=PF1mWN1 HTTP/1.1" 200 -
+2024-12-13 15:42:18,580 [INFO] A client has connected to the server.
+2024-12-13 15:42:18,590 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:18] "POST /socket.io/?EIO=4&transport=polling&t=PF1mWOS&sid=fP0GFCtTv9F3B-5kAAAC HTTP/1.1" 200 -
+2024-12-13 15:42:18,651 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:18] "GET /socket.io/?EIO=4&transport=polling&t=PF1mWOS.0&sid=fP0GFCtTv9F3B-5kAAAC HTTP/1.1" 200 -
+2024-12-13 15:42:22,742 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:42:22,757 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:42:22,773 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:42:22,788 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:42:22,804 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:42:22,820 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:42:22,836 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:42:22,867 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:42:22,882 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:42:22,913 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:42:22,929 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:42:22,975 [INFO] Configuration update completed.
+2024-12-13 15:42:23,054 [INFO] Configuration saved to config.json.
+2024-12-13 15:42:23,084 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:42:23,100 [INFO] Stopping receiver thread...
+2024-12-13 15:42:23,115 [INFO] Receiver stopped.
+2024-12-13 15:42:23,187 [INFO] Receiver thread was not running.
+2024-12-13 15:42:23,187 [INFO] Receiver stopped.
+2024-12-13 15:42:23,191 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:42:23,192 [INFO] Carrier Transmission started.
+2024-12-13 15:42:23,218 [INFO] Configuration applied successfully.
+2024-12-13 15:42:23,218 [INFO] Configuration updated successfully.
+2024-12-13 15:42:23,219 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:23] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:23,229 [ERROR] Failed to initialize HackRF for carrier-only mode.
+2024-12-13 15:42:26,477 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "GET /socket.io/?EIO=4&transport=websocket&sid=fP0GFCtTv9F3B-5kAAAC HTTP/1.1" 200 -
+2024-12-13 15:42:26,485 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "GET / HTTP/1.1" 200 -
+2024-12-13 15:42:26,498 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:42:26,499 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:42:26,505 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "GET /socket.io/?EIO=4&transport=polling&t=PF1mYL5 HTTP/1.1" 200 -
+2024-12-13 15:42:26,505 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:26,510 [INFO] A client has connected to the server.
+2024-12-13 15:42:26,511 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "POST /socket.io/?EIO=4&transport=polling&t=PF1mYLC&sid=k1KeeLbspRNK-JOQAAAE HTTP/1.1" 200 -
+2024-12-13 15:42:26,512 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "GET /socket.io/?EIO=4&transport=polling&t=PF1mYLD&sid=k1KeeLbspRNK-JOQAAAE HTTP/1.1" 200 -
+2024-12-13 15:42:26,516 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:26] "GET /socket.io/?EIO=4&transport=polling&t=PF1mYLI&sid=k1KeeLbspRNK-JOQAAAE HTTP/1.1" 200 -
+2024-12-13 15:42:29,909 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:42:29,910 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:42:29,910 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:42:29,911 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:42:29,911 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:42:29,912 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:42:29,912 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:42:29,913 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:42:29,913 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:42:29,913 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:42:29,913 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:42:29,914 [INFO] Configuration update completed.
+2024-12-13 15:42:29,915 [INFO] Configuration saved to config.json.
+2024-12-13 15:42:29,916 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:42:29,916 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:42:29,916 [INFO] Carrier Transmission stopped.
+2024-12-13 15:42:29,917 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:42:29,917 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:42:29,926 [INFO] Configuration applied successfully.
+2024-12-13 15:42:29,989 [INFO] Configuration updated successfully.
+2024-12-13 15:42:30,021 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:30] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:32,016 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "GET /socket.io/?EIO=4&transport=websocket&sid=k1KeeLbspRNK-JOQAAAE HTTP/1.1" 200 -
+2024-12-13 15:42:32,048 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "GET / HTTP/1.1" 200 -
+2024-12-13 15:42:32,141 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:42:32,221 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:42:32,393 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "GET /socket.io/?EIO=4&transport=polling&t=PF1mZlD HTTP/1.1" 200 -
+2024-12-13 15:42:32,473 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:32,613 [INFO] A client has connected to the server.
+2024-12-13 15:42:32,645 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "POST /socket.io/?EIO=4&transport=polling&t=PF1mZoS&sid=D8134G8XCq_tUA9sAAAG HTTP/1.1" 200 -
+2024-12-13 15:42:32,755 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "GET /socket.io/?EIO=4&transport=polling&t=PF1mZoS.0&sid=D8134G8XCq_tUA9sAAAG HTTP/1.1" 200 -
+2024-12-13 15:42:32,865 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:32] "GET /socket.io/?EIO=4&transport=polling&t=PF1mZtq&sid=D8134G8XCq_tUA9sAAAG HTTP/1.1" 200 -
+2024-12-13 15:42:35,757 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:42:35,772 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:42:35,787 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:42:35,849 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:42:35,880 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:42:35,896 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:42:35,896 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:42:35,911 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:42:35,927 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:42:35,943 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:42:35,959 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:42:35,975 [INFO] Configuration update completed.
+2024-12-13 15:42:36,053 [INFO] Configuration saved to config.json.
+2024-12-13 15:42:36,068 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:42:36,083 [INFO] Stopping receiver thread...
+2024-12-13 15:42:36,099 [INFO] Receiver stopped.
+2024-12-13 15:42:36,202 [INFO] Receiver thread was not running.
+2024-12-13 15:42:36,202 [INFO] Receiver stopped.
+2024-12-13 15:42:36,208 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:42:36,237 [INFO] Carrier Transmission started.
+2024-12-13 15:42:36,238 [INFO] Configuration applied successfully.
+2024-12-13 15:42:36,239 [INFO] Configuration updated successfully.
+2024-12-13 15:42:36,241 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:36] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:36,247 [INFO] Carrier-only transmission started.
+2024-12-13 15:42:37,571 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "GET /socket.io/?EIO=4&transport=websocket&sid=D8134G8XCq_tUA9sAAAG HTTP/1.1" 200 -
+2024-12-13 15:42:37,579 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "GET / HTTP/1.1" 200 -
+2024-12-13 15:42:37,593 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:42:37,594 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:42:37,600 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1mb2U HTTP/1.1" 200 -
+2024-12-13 15:42:37,601 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:37,605 [INFO] A client has connected to the server.
+2024-12-13 15:42:37,605 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "POST /socket.io/?EIO=4&transport=polling&t=PF1mb2Z&sid=iLjcj78X7C4DVbfNAAAI HTTP/1.1" 200 -
+2024-12-13 15:42:37,606 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1mb2a&sid=iLjcj78X7C4DVbfNAAAI HTTP/1.1" 200 -
+2024-12-13 15:42:40,609 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:42:40,609 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:42:40,610 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:42:40,610 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:42:40,611 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:42:40,612 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:42:40,612 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:42:40,613 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:42:40,613 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:42:40,615 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:42:40,615 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:42:40,616 [INFO] Configuration update completed.
+2024-12-13 15:42:40,618 [INFO] Configuration saved to config.json.
+2024-12-13 15:42:40,618 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:42:40,619 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:42:42,546 [INFO] Carrier-only transmission stopped.
+2024-12-13 15:42:42,548 [INFO] Carrier-only transmission thread stopped.
+2024-12-13 15:42:42,549 [INFO] Carrier Transmission stopped.
+2024-12-13 15:42:42,550 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:42:42,551 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:42:42,579 [INFO] Configuration applied successfully.
+2024-12-13 15:42:42,673 [INFO] Configuration updated successfully.
+2024-12-13 15:42:42,720 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:42] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:44,741 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:44] "GET /socket.io/?EIO=4&transport=websocket&sid=iLjcj78X7C4DVbfNAAAI HTTP/1.1" 200 -
+2024-12-13 15:42:44,742 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:44] "GET / HTTP/1.1" 200 -
+2024-12-13 15:42:44,946 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:42:45,009 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:42:45,179 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:45] "GET /socket.io/?EIO=4&transport=polling&t=PF1mctM HTTP/1.1" 200 -
+2024-12-13 15:42:45,196 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:45] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:42:45,319 [INFO] A client has connected to the server.
+2024-12-13 15:42:45,350 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:45] "POST /socket.io/?EIO=4&transport=polling&t=PF1mcwA&sid=t-wy0x4U1bZL8xLNAAAK HTTP/1.1" 200 -
+2024-12-13 15:42:45,397 [INFO] 127.0.0.1 - - [13/Dec/2024 15:42:45] "GET /socket.io/?EIO=4&transport=polling&t=PF1mcwB&sid=t-wy0x4U1bZL8xLNAAAK HTTP/1.1" 200 -
+2024-12-13 15:45:17,221 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:17] "GET /socket.io/?EIO=4&transport=websocket&sid=t-wy0x4U1bZL8xLNAAAK HTTP/1.1" 200 -
+2024-12-13 15:45:33,843 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:45:33,844 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:45:33,857 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:45:33,888 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:45:33,903 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:45:33,918 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:45:33,964 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:45:33,980 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:45:33,995 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:45:34,010 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:45:34,026 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:45:34,042 [INFO] Configuration update completed.
+2024-12-13 15:45:34,166 [INFO] Configuration saved to config.json.
+2024-12-13 15:45:34,197 [INFO] Frequency updated to 144390000 Hz.
+2024-12-13 15:45:34,213 [INFO] Stopping receiver thread...
+2024-12-13 15:45:34,229 [INFO] Receiver stopped.
+2024-12-13 15:45:34,304 [INFO] Receiver thread was not running.
+2024-12-13 15:45:34,304 [INFO] Receiver stopped.
+2024-12-13 15:45:34,304 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:45:34,305 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:45:34,329 [INFO] Receiver restarted.
+2024-12-13 15:45:34,376 [INFO] Configuration applied successfully.
+2024-12-13 15:45:34,392 [INFO] Configuration updated successfully.
+2024-12-13 15:45:34,470 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:34] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:45:36,725 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:36] "GET / HTTP/1.1" 200 -
+2024-12-13 15:45:36,897 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:45:36,959 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:45:37,068 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1nGrI HTTP/1.1" 200 -
+2024-12-13 15:45:37,069 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:37] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:45:37,132 [INFO] A client has connected to the server.
+2024-12-13 15:45:37,162 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:37] "POST /socket.io/?EIO=4&transport=polling&t=PF1nGs_&sid=HFDKLPjib8mZj5t9AAAM HTTP/1.1" 200 -
+2024-12-13 15:45:37,240 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1nGt0&sid=HFDKLPjib8mZj5t9AAAM HTTP/1.1" 200 -
+2024-12-13 15:45:37,362 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1nGw8&sid=HFDKLPjib8mZj5t9AAAM HTTP/1.1" 200 -
+2024-12-13 15:45:54,141 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "GET /socket.io/?EIO=4&transport=websocket&sid=HFDKLPjib8mZj5t9AAAM HTTP/1.1" 200 -
+2024-12-13 15:45:54,161 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "GET / HTTP/1.1" 200 -
+2024-12-13 15:45:54,301 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:45:54,311 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:45:54,423 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "GET /socket.io/?EIO=4&transport=polling&t=PF1nL4F HTTP/1.1" 200 -
+2024-12-13 15:45:54,433 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:45:54,543 [INFO] A client has connected to the server.
+2024-12-13 15:45:54,566 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "POST /socket.io/?EIO=4&transport=polling&t=PF1nL75&sid=28WZEJFC_THIyRUtAAAO HTTP/1.1" 200 -
+2024-12-13 15:45:54,660 [INFO] 127.0.0.1 - - [13/Dec/2024 15:45:54] "GET /socket.io/?EIO=4&transport=polling&t=PF1nL75.0&sid=28WZEJFC_THIyRUtAAAO HTTP/1.1" 200 -
+2024-12-13 15:46:12,083 [INFO] Configuration parameter 'frequency_hz' updated to '144380000'.
+2024-12-13 15:46:12,099 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:46:12,115 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:46:12,130 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:46:12,146 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:46:12,162 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:46:12,177 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:46:12,193 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:46:12,209 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:46:12,224 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:46:12,240 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:46:12,255 [INFO] Configuration update completed.
+2024-12-13 15:46:12,348 [INFO] Configuration saved to config.json.
+2024-12-13 15:46:12,379 [INFO] Frequency updated to 144380000 Hz.
+2024-12-13 15:46:12,425 [INFO] Stopping receiver thread...
+2024-12-13 15:46:12,456 [INFO] Receiver stopped.
+2024-12-13 15:46:12,505 [INFO] Receiver thread was not running.
+2024-12-13 15:46:12,506 [INFO] Receiver stopped.
+2024-12-13 15:46:12,507 [INFO] Receiver thread started on device 0 at 144380000.00 Hz.
+2024-12-13 15:46:12,507 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:46:12,508 [INFO] Receiver restarted.
+2024-12-13 15:46:12,565 [INFO] Configuration applied successfully.
+2024-12-13 15:46:12,581 [INFO] Configuration updated successfully.
+2024-12-13 15:46:12,597 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:12] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:14,649 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:14] "GET / HTTP/1.1" 200 -
+2024-12-13 15:46:14,649 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:14] "GET /socket.io/?EIO=4&transport=websocket&sid=28WZEJFC_THIyRUtAAAO HTTP/1.1" 200 -
+2024-12-13 15:46:14,728 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:46:14,742 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:46:14,994 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:14] "GET /socket.io/?EIO=4&transport=polling&t=PF1nQ5e HTTP/1.1" 200 -
+2024-12-13 15:46:14,995 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:14] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:15,120 [INFO] A client has connected to the server.
+2024-12-13 15:46:15,166 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:15] "POST /socket.io/?EIO=4&transport=polling&t=PF1nQ8Z&sid=2_XO-YZFOoJHrLOxAAAQ HTTP/1.1" 200 -
+2024-12-13 15:46:15,339 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:15] "GET /socket.io/?EIO=4&transport=polling&t=PF1nQ8a&sid=2_XO-YZFOoJHrLOxAAAQ HTTP/1.1" 200 -
+2024-12-13 15:46:18,457 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:46:18,471 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:46:18,486 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:46:18,517 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:46:18,533 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:46:18,564 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:46:18,594 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:46:18,595 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:46:18,595 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:46:18,656 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:46:18,672 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:46:18,751 [INFO] Configuration update completed.
+2024-12-13 15:46:18,938 [INFO] Configuration saved to config.json.
+2024-12-13 15:46:19,000 [INFO] Frequency updated to 144390000 Hz.
+2024-12-13 15:46:19,015 [INFO] Stopping receiver thread...
+2024-12-13 15:46:19,031 [INFO] Receiver stopped.
+2024-12-13 15:46:19,116 [INFO] Receiver thread was not running.
+2024-12-13 15:46:19,116 [INFO] Receiver stopped.
+2024-12-13 15:46:19,117 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:46:19,117 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:46:19,139 [INFO] Receiver restarted.
+2024-12-13 15:46:19,233 [INFO] Configuration applied successfully.
+2024-12-13 15:46:19,248 [INFO] Configuration updated successfully.
+2024-12-13 15:46:19,279 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:19] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:21,041 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "GET /socket.io/?EIO=4&transport=websocket&sid=2_XO-YZFOoJHrLOxAAAQ HTTP/1.1" 200 -
+2024-12-13 15:46:21,101 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "GET / HTTP/1.1" 200 -
+2024-12-13 15:46:21,273 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:46:21,351 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:46:21,493 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "GET /socket.io/?EIO=4&transport=polling&t=PF1nRhA HTTP/1.1" 200 -
+2024-12-13 15:46:21,555 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:21,664 [INFO] A client has connected to the server.
+2024-12-13 15:46:21,680 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "POST /socket.io/?EIO=4&transport=polling&t=PF1nRjs&sid=_eY37IKDs626XoCtAAAS HTTP/1.1" 200 -
+2024-12-13 15:46:21,822 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:21] "GET /socket.io/?EIO=4&transport=polling&t=PF1nRjs.0&sid=_eY37IKDs626XoCtAAAS HTTP/1.1" 200 -
+2024-12-13 15:46:45,987 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:46:46,002 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:46:46,017 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:46:46,048 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:46:46,064 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:46:46,095 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:46:46,111 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:46:46,126 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:46:46,126 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:46:46,142 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:46:46,173 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:46:46,204 [INFO] Configuration update completed.
+2024-12-13 15:46:46,314 [INFO] Configuration saved to config.json.
+2024-12-13 15:46:46,361 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:46:46,376 [INFO] Stopping receiver thread...
+2024-12-13 15:46:46,392 [INFO] Receiver stopped.
+2024-12-13 15:46:46,462 [INFO] Receiver thread was not running.
+2024-12-13 15:46:46,463 [INFO] Receiver stopped.
+2024-12-13 15:46:46,469 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:46:46,495 [INFO] Carrier Transmission started.
+2024-12-13 15:46:46,496 [INFO] Configuration applied successfully.
+2024-12-13 15:46:46,496 [ERROR] Failed to initialize HackRF for carrier-only mode.
+2024-12-13 15:46:46,498 [INFO] Configuration updated successfully.
+2024-12-13 15:46:47,115 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:47] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:49,223 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "GET /socket.io/?EIO=4&transport=websocket&sid=_eY37IKDs626XoCtAAAS HTTP/1.1" 200 -
+2024-12-13 15:46:49,232 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "GET / HTTP/1.1" 200 -
+2024-12-13 15:46:49,251 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:46:49,253 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:46:49,264 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "GET /socket.io/?EIO=4&transport=polling&t=PF1nYUg HTTP/1.1" 200 -
+2024-12-13 15:46:49,265 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:49,270 [INFO] A client has connected to the server.
+2024-12-13 15:46:49,271 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "POST /socket.io/?EIO=4&transport=polling&t=PF1nYUp&sid=UeM6ANBHN4duXKLkAAAU HTTP/1.1" 200 -
+2024-12-13 15:46:49,272 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:49] "GET /socket.io/?EIO=4&transport=polling&t=PF1nYUq&sid=UeM6ANBHN4duXKLkAAAU HTTP/1.1" 200 -
+2024-12-13 15:46:52,027 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:46:52,027 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:46:52,028 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:46:52,028 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:46:52,029 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:46:52,029 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:46:52,031 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:46:52,032 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:46:52,032 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:46:52,033 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:46:52,033 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:46:52,034 [INFO] Configuration update completed.
+2024-12-13 15:46:52,036 [INFO] Configuration saved to config.json.
+2024-12-13 15:46:52,036 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:46:52,036 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:46:52,037 [INFO] Carrier Transmission stopped.
+2024-12-13 15:46:52,038 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:46:52,039 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:46:52,039 [INFO] Configuration applied successfully.
+2024-12-13 15:46:52,072 [INFO] Configuration updated successfully.
+2024-12-13 15:46:52,103 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:52] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:55,132 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "GET /socket.io/?EIO=4&transport=websocket&sid=UeM6ANBHN4duXKLkAAAU HTTP/1.1" 200 -
+2024-12-13 15:46:55,147 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "GET / HTTP/1.1" 200 -
+2024-12-13 15:46:55,273 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:46:55,318 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:46:55,490 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "GET /socket.io/?EIO=4&transport=polling&t=PF1nZ-O HTTP/1.1" 200 -
+2024-12-13 15:46:55,539 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:46:55,693 [INFO] A client has connected to the server.
+2024-12-13 15:46:55,740 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "POST /socket.io/?EIO=4&transport=polling&t=PF1na1o&sid=iHdQlEdDcf5ha3-BAAAW HTTP/1.1" 200 -
+2024-12-13 15:46:55,804 [INFO] 127.0.0.1 - - [13/Dec/2024 15:46:55] "GET /socket.io/?EIO=4&transport=polling&t=PF1na1p&sid=iHdQlEdDcf5ha3-BAAAW HTTP/1.1" 200 -
+2024-12-13 15:47:14,263 [INFO] Configuration loaded from config.json.
+2024-12-13 15:47:14,263 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:47:14,263 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:47:14,263 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:47:14,263 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:47:14,283 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:47:14,303 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:47:14,373 [INFO] Backend thread started.
+2024-12-13 15:47:15,490 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:47:15,510 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:47:15,631 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:15] "GET /socket.io/?EIO=4&transport=polling&t=PF1neLY HTTP/1.1" 200 -
+2024-12-13 15:47:15,682 [INFO] A client has connected to the server.
+2024-12-13 15:47:15,692 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:15] "POST /socket.io/?EIO=4&transport=polling&t=PF1newx&sid=uofYRGPJgU_ClvceAAAA HTTP/1.1" 200 -
+2024-12-13 15:47:15,692 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:15] "GET /socket.io/?EIO=4&transport=polling&t=PF1newy&sid=uofYRGPJgU_ClvceAAAA HTTP/1.1" 200 -
+2024-12-13 15:47:19,059 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "GET /socket.io/?EIO=4&transport=websocket&sid=uofYRGPJgU_ClvceAAAA HTTP/1.1" 200 -
+2024-12-13 15:47:19,229 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "GET / HTTP/1.1" 200 -
+2024-12-13 15:47:19,359 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:47:19,409 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:47:19,529 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:19,549 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "GET /socket.io/?EIO=4&transport=polling&t=PF1nfsU HTTP/1.1" 200 -
+2024-12-13 15:47:19,635 [INFO] A client has connected to the server.
+2024-12-13 15:47:19,655 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "POST /socket.io/?EIO=4&transport=polling&t=PF1nfuf&sid=DgCG66GY2Kf1i9fDAAAC HTTP/1.1" 200 -
+2024-12-13 15:47:19,716 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:19] "GET /socket.io/?EIO=4&transport=polling&t=PF1nfuf.0&sid=DgCG66GY2Kf1i9fDAAAC HTTP/1.1" 200 -
+2024-12-13 15:47:22,493 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:47:22,503 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:47:22,513 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:47:22,533 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:47:22,543 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:47:22,553 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:47:22,563 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:47:22,573 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:47:22,583 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:47:22,593 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:47:22,613 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:47:22,648 [INFO] Configuration update completed.
+2024-12-13 15:47:22,711 [INFO] Configuration saved to config.json.
+2024-12-13 15:47:22,727 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:47:22,743 [INFO] Stopping receiver thread...
+2024-12-13 15:47:22,758 [INFO] Receiver stopped.
+2024-12-13 15:47:22,829 [INFO] Receiver thread was not running.
+2024-12-13 15:47:22,829 [INFO] Receiver stopped.
+2024-12-13 15:47:23,334 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:47:23,358 [INFO] Carrier Transmission started.
+2024-12-13 15:47:23,358 [INFO] Configuration applied successfully.
+2024-12-13 15:47:23,359 [INFO] Configuration updated successfully.
+2024-12-13 15:47:23,361 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:23] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:23,366 [INFO] Carrier-only transmission started.
+2024-12-13 15:47:24,759 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "GET /socket.io/?EIO=4&transport=websocket&sid=DgCG66GY2Kf1i9fDAAAC HTTP/1.1" 200 -
+2024-12-13 15:47:24,767 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "GET / HTTP/1.1" 200 -
+2024-12-13 15:47:24,781 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:47:24,782 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:47:24,788 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "GET /socket.io/?EIO=4&transport=polling&t=PF1nh9p HTTP/1.1" 200 -
+2024-12-13 15:47:24,789 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:24,793 [INFO] A client has connected to the server.
+2024-12-13 15:47:24,794 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "POST /socket.io/?EIO=4&transport=polling&t=PF1nh9t&sid=mkqILokxmjMleMxYAAAE HTTP/1.1" 200 -
+2024-12-13 15:47:24,795 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:24] "GET /socket.io/?EIO=4&transport=polling&t=PF1nh9t.0&sid=mkqILokxmjMleMxYAAAE HTTP/1.1" 200 -
+2024-12-13 15:47:27,027 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:47:27,028 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:47:27,028 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:47:27,029 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:47:27,029 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:47:27,030 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:47:27,030 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:47:27,030 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:47:27,031 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:47:27,032 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:47:27,033 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:47:27,033 [INFO] Configuration update completed.
+2024-12-13 15:47:27,035 [INFO] Configuration saved to config.json.
+2024-12-13 15:47:27,035 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:47:27,036 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:47:28,654 [INFO] Carrier-only transmission stopped.
+2024-12-13 15:47:28,656 [INFO] Carrier-only transmission thread stopped.
+2024-12-13 15:47:28,656 [INFO] Carrier Transmission stopped.
+2024-12-13 15:47:28,759 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:47:28,759 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:47:28,793 [INFO] Configuration applied successfully.
+2024-12-13 15:47:28,872 [INFO] Configuration updated successfully.
+2024-12-13 15:47:28,903 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:28] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:30,970 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:30] "GET / HTTP/1.1" 200 -
+2024-12-13 15:47:30,985 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:30] "GET /socket.io/?EIO=4&transport=websocket&sid=mkqILokxmjMleMxYAAAE HTTP/1.1" 200 -
+2024-12-13 15:47:31,189 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:47:31,268 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:47:31,425 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:31] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:31,425 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:31] "GET /socket.io/?EIO=4&transport=polling&t=PF1nilq HTTP/1.1" 200 -
+2024-12-13 15:47:31,611 [INFO] A client has connected to the server.
+2024-12-13 15:47:31,643 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:31] "POST /socket.io/?EIO=4&transport=polling&t=PF1nipl&sid=sg2S06MdrIudW_IpAAAG HTTP/1.1" 200 -
+2024-12-13 15:47:31,706 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:31] "GET /socket.io/?EIO=4&transport=polling&t=PF1nipm&sid=sg2S06MdrIudW_IpAAAG HTTP/1.1" 200 -
+2024-12-13 15:47:34,608 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:47:34,622 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:47:34,638 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:47:34,654 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:47:34,685 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:47:34,717 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:47:34,733 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:47:34,748 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:47:34,764 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:47:34,780 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:47:34,796 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:47:34,811 [INFO] Configuration update completed.
+2024-12-13 15:47:34,905 [INFO] Configuration saved to config.json.
+2024-12-13 15:47:34,920 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:47:34,935 [INFO] Stopping receiver thread...
+2024-12-13 15:47:34,966 [INFO] Receiver stopped.
+2024-12-13 15:47:35,037 [INFO] Receiver thread was not running.
+2024-12-13 15:47:35,037 [INFO] Receiver stopped.
+2024-12-13 15:47:35,542 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:47:35,566 [INFO] Carrier Transmission started.
+2024-12-13 15:47:35,567 [INFO] Configuration applied successfully.
+2024-12-13 15:47:35,568 [INFO] Configuration updated successfully.
+2024-12-13 15:47:35,569 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:35] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:35,573 [INFO] Carrier-only transmission started.
+2024-12-13 15:47:37,349 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "GET /socket.io/?EIO=4&transport=websocket&sid=sg2S06MdrIudW_IpAAAG HTTP/1.1" 200 -
+2024-12-13 15:47:37,357 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "GET / HTTP/1.1" 200 -
+2024-12-13 15:47:37,375 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:47:37,375 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:47:37,384 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1nkEZ HTTP/1.1" 200 -
+2024-12-13 15:47:37,385 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:37,390 [INFO] A client has connected to the server.
+2024-12-13 15:47:37,391 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "POST /socket.io/?EIO=4&transport=polling&t=PF1nkEi&sid=zB-YdIuinugKb2_yAAAI HTTP/1.1" 200 -
+2024-12-13 15:47:37,392 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1nkEi.0&sid=zB-YdIuinugKb2_yAAAI HTTP/1.1" 200 -
+2024-12-13 15:47:51,636 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:47:51,637 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:47:51,637 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:47:51,637 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:47:51,638 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:47:51,638 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:47:51,638 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:47:51,639 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:47:51,639 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:47:51,639 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:47:51,640 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:47:51,640 [INFO] Configuration update completed.
+2024-12-13 15:47:51,641 [INFO] Configuration saved to config.json.
+2024-12-13 15:47:51,641 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:47:51,641 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:47:53,881 [INFO] Carrier-only transmission stopped.
+2024-12-13 15:47:53,882 [INFO] Carrier-only transmission thread stopped.
+2024-12-13 15:47:53,882 [INFO] Carrier Transmission stopped.
+2024-12-13 15:47:53,986 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:47:53,986 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:47:54,007 [INFO] Configuration applied successfully.
+2024-12-13 15:47:54,086 [INFO] Configuration updated successfully.
+2024-12-13 15:47:54,133 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:54] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:56,452 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:56] "GET / HTTP/1.1" 200 -
+2024-12-13 15:47:56,465 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:56] "GET /socket.io/?EIO=4&transport=websocket&sid=zB-YdIuinugKb2_yAAAI HTTP/1.1" 200 -
+2024-12-13 15:47:56,671 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:47:56,734 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:47:56,905 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:56] "GET /socket.io/?EIO=4&transport=polling&t=PF1nozk HTTP/1.1" 200 -
+2024-12-13 15:47:57,030 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:57] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:47:57,106 [INFO] A client has connected to the server.
+2024-12-13 15:47:57,185 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:57] "POST /socket.io/?EIO=4&transport=polling&t=PF1no_y&sid=W1mX2YuNjAumAbYXAAAK HTTP/1.1" 200 -
+2024-12-13 15:47:57,186 [INFO] 127.0.0.1 - - [13/Dec/2024 15:47:57] "GET /socket.io/?EIO=4&transport=polling&t=PF1no_y.0&sid=W1mX2YuNjAumAbYXAAAK HTTP/1.1" 200 -
+2024-12-13 15:48:16,988 [INFO] Configuration loaded from config.json.
+2024-12-13 15:48:16,988 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:48:16,988 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:48:16,998 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:48:16,998 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:48:17,018 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:48:17,028 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:48:17,099 [INFO] Backend thread started.
+2024-12-13 15:48:18,262 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:48:18,302 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:48:18,392 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:18] "GET /socket.io/?EIO=4&transport=polling&t=PF1ntzY HTTP/1.1" 200 -
+2024-12-13 15:48:18,513 [INFO] A client has connected to the server.
+2024-12-13 15:48:18,533 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:18] "POST /socket.io/?EIO=4&transport=polling&t=PF1nuGX&sid=7KdDHV1d2caPRVg3AAAA HTTP/1.1" 200 -
+2024-12-13 15:48:18,533 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:18] "GET /socket.io/?EIO=4&transport=polling&t=PF1nuGX.0&sid=7KdDHV1d2caPRVg3AAAA HTTP/1.1" 200 -
+2024-12-13 15:48:26,462 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:48:26,463 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:48:26,492 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:48:26,508 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:48:26,523 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:48:26,538 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:48:26,569 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:48:26,600 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:48:26,615 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:48:26,631 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:48:26,662 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:48:26,709 [INFO] Configuration update completed.
+2024-12-13 15:48:26,834 [INFO] Configuration saved to config.json.
+2024-12-13 15:48:26,849 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:48:26,849 [INFO] Stopping receiver thread...
+2024-12-13 15:48:26,865 [INFO] Receiver stopped.
+2024-12-13 15:48:26,937 [INFO] Receiver thread was not running.
+2024-12-13 15:48:26,937 [INFO] Receiver stopped.
+2024-12-13 15:48:27,442 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:48:27,469 [INFO] Carrier Transmission started.
+2024-12-13 15:48:27,470 [INFO] Configuration applied successfully.
+2024-12-13 15:48:27,471 [INFO] Configuration updated successfully.
+2024-12-13 15:48:27,472 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:27] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:48:27,476 [INFO] Carrier-only transmission started.
+2024-12-13 15:48:29,225 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "GET /socket.io/?EIO=4&transport=websocket&sid=7KdDHV1d2caPRVg3AAAA HTTP/1.1" 200 -
+2024-12-13 15:48:29,239 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "GET / HTTP/1.1" 200 -
+2024-12-13 15:48:29,300 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:48:29,301 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:48:29,309 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "GET /socket.io/?EIO=4&transport=polling&t=PF1nwvw HTTP/1.1" 200 -
+2024-12-13 15:48:29,310 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:48:29,316 [INFO] A client has connected to the server.
+2024-12-13 15:48:29,317 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "POST /socket.io/?EIO=4&transport=polling&t=PF1nww0&sid=-gWaHVJz1fA3lv8gAAAC HTTP/1.1" 200 -
+2024-12-13 15:48:29,318 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:29] "GET /socket.io/?EIO=4&transport=polling&t=PF1nww1&sid=-gWaHVJz1fA3lv8gAAAC HTTP/1.1" 200 -
+2024-12-13 15:48:32,540 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:48:32,541 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:48:32,541 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:48:32,541 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:48:32,541 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:48:32,542 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:48:32,542 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:48:32,542 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:48:32,543 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:48:32,543 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:48:32,544 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:48:32,544 [INFO] Configuration update completed.
+2024-12-13 15:48:32,545 [INFO] Configuration saved to config.json.
+2024-12-13 15:48:32,546 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:48:32,546 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:48:34,787 [INFO] Carrier-only transmission stopped.
+2024-12-13 15:48:34,788 [INFO] Carrier-only transmission thread stopped.
+2024-12-13 15:48:34,788 [INFO] Carrier Transmission stopped.
+2024-12-13 15:48:34,892 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:48:34,892 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:48:34,892 [INFO] Configuration applied successfully.
+2024-12-13 15:48:34,964 [INFO] Configuration updated successfully.
+2024-12-13 15:48:34,995 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:34] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:48:37,232 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:37] "GET /socket.io/?EIO=4&transport=websocket&sid=-gWaHVJz1fA3lv8gAAAC HTTP/1.1" 200 -
+2024-12-13 15:48:37,311 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:37] "GET / HTTP/1.1" 200 -
+2024-12-13 15:48:37,485 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:48:37,546 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:48:37,656 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:37] "GET /socket.io/?EIO=4&transport=polling&t=PF1nyxS HTTP/1.1" 200 -
+2024-12-13 15:48:37,719 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:37] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:48:37,923 [INFO] A client has connected to the server.
+2024-12-13 15:48:37,937 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:37] "POST /socket.io/?EIO=4&transport=polling&t=PF1nyzu&sid=jseCgO5kQNmYeQLUAAAE HTTP/1.1" 200 -
+2024-12-13 15:48:38,030 [INFO] 127.0.0.1 - - [13/Dec/2024 15:48:38] "GET /socket.io/?EIO=4&transport=polling&t=PF1nyzv&sid=jseCgO5kQNmYeQLUAAAE HTTP/1.1" 200 -
+2024-12-13 15:48:53,756 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:48:53,757 [INFO] Processing message: test123
+2024-12-13 15:48:53,772 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:48:53,773 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:48:53,856 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:48:53,865 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:48:53,913 [DEBUG] Audio normalization not required.
+2024-12-13 15:48:53,928 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:48:54,007 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:48:54,055 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:48:54,194 [INFO] WAV files generated successfully.
+2024-12-13 15:48:54,210 [INFO] Stopping receiver thread...
+2024-12-13 15:48:54,225 [INFO] Receiver stopped.
+2024-12-13 15:48:54,881 [INFO] Receiver thread was not running.
+2024-12-13 15:48:54,881 [INFO] Receiver stopped before transmission.
+2024-12-13 15:48:55,022 [INFO] Transmission started.
+2024-12-13 15:48:55,028 [DEBUG] Transmission thread started.
+2024-12-13 15:48:56,093 [INFO] Transmission done.
+2024-12-13 15:48:56,098 [INFO] Transmission stopped.
+2024-12-13 15:48:56,100 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:48:56,100 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:48:56,156 [INFO] Receiver thread restarted.
+2024-12-13 15:49:05,277 [INFO] Restarting receiver...
+2024-12-13 15:49:05,323 [DEBUG] Stopping receiver thread.
+2024-12-13 15:49:05,338 [INFO] Stopping receiver thread...
+2024-12-13 15:49:05,354 [INFO] Receiver stopped.
+2024-12-13 15:49:05,417 [INFO] Receiver thread was not running.
+2024-12-13 15:49:05,417 [INFO] Receiver thread stopped successfully.
+2024-12-13 15:49:05,418 [INFO] Receiver stopped.
+2024-12-13 15:49:05,419 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:49:05,419 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:05,419 [INFO] Receiver restarted successfully.
+2024-12-13 15:49:05,571 [INFO] Reception restarted successfully.
+2024-12-13 15:49:05,599 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:05] "POST /api/restart_reception HTTP/1.1" 200 -
+2024-12-13 15:49:10,542 [INFO] Restarting receiver...
+2024-12-13 15:49:10,557 [DEBUG] Stopping receiver thread.
+2024-12-13 15:49:10,588 [INFO] Stopping receiver thread...
+2024-12-13 15:49:10,604 [INFO] Receiver stopped.
+2024-12-13 15:49:10,653 [INFO] Receiver thread was not running.
+2024-12-13 15:49:10,653 [INFO] Receiver thread stopped successfully.
+2024-12-13 15:49:10,654 [INFO] Receiver stopped.
+2024-12-13 15:49:10,655 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:49:10,656 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:10,656 [INFO] Receiver restarted successfully.
+2024-12-13 15:49:10,699 [INFO] Reception restarted successfully.
+2024-12-13 15:49:10,714 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:10] "POST /api/restart_reception HTTP/1.1" 200 -
+2024-12-13 15:49:14,035 [INFO] Restarting receiver...
+2024-12-13 15:49:14,049 [DEBUG] Stopping receiver thread.
+2024-12-13 15:49:14,112 [INFO] Stopping receiver thread...
+2024-12-13 15:49:14,127 [INFO] Receiver stopped.
+2024-12-13 15:49:14,200 [INFO] Receiver thread was not running.
+2024-12-13 15:49:14,201 [INFO] Receiver thread stopped successfully.
+2024-12-13 15:49:14,201 [INFO] Receiver stopped.
+2024-12-13 15:49:14,204 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:49:14,205 [INFO] Receiver restarted successfully.
+2024-12-13 15:49:14,205 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:14,220 [INFO] Reception restarted successfully.
+2024-12-13 15:49:14,252 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:14] "POST /api/restart_reception HTTP/1.1" 200 -
+2024-12-13 15:49:45,575 [INFO] Configuration loaded from config.json.
+2024-12-13 15:49:45,576 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:45,577 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:49:45,578 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:49:45,579 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:45,603 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:49:45,618 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:49:45,742 [INFO] Backend thread started.
+2024-12-13 15:49:47,237 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:49:47,254 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:49:47,426 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:47] "GET /socket.io/?EIO=4&transport=polling&t=PF1oDSW HTTP/1.1" 200 -
+2024-12-13 15:49:47,582 [INFO] A client has connected to the server.
+2024-12-13 15:49:47,707 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:47] "GET /socket.io/?EIO=4&transport=polling&t=PF1oE0I&sid=VHVr84Ny6E_zIK_0AAAA HTTP/1.1" 200 -
+2024-12-13 15:49:47,722 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:47] "POST /socket.io/?EIO=4&transport=polling&t=PF1oE0H&sid=VHVr84Ny6E_zIK_0AAAA HTTP/1.1" 200 -
+2024-12-13 15:49:49,075 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:49:49,091 [INFO] Processing message: test123
+2024-12-13 15:49:49,186 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:49:49,203 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:49:49,224 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:49:49,233 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:49:49,249 [DEBUG] Audio normalization not required.
+2024-12-13 15:49:49,296 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:49:49,374 [INFO] Stopping receiver thread...
+2024-12-13 15:49:49,390 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:49:49,390 [INFO] Receiver stopped.
+2024-12-13 15:49:49,391 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:49:49,398 [INFO] WAV files generated successfully.
+2024-12-13 15:49:49,477 [INFO] Receiver thread was not running.
+2024-12-13 15:49:49,478 [INFO] Receiver stopped before transmission.
+2024-12-13 15:49:49,606 [INFO] Transmission started.
+2024-12-13 15:49:49,614 [DEBUG] Transmission thread started.
+2024-12-13 15:49:50,680 [INFO] Transmission done.
+2024-12-13 15:49:50,685 [INFO] Transmission stopped.
+2024-12-13 15:49:50,687 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:49:50,688 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:50,698 [INFO] Receiver thread restarted.
+2024-12-13 15:49:53,243 [INFO] Restarting receiver...
+2024-12-13 15:49:53,321 [DEBUG] Stopping receiver thread.
+2024-12-13 15:49:53,368 [INFO] Stopping receiver thread...
+2024-12-13 15:49:53,384 [INFO] Receiver stopped.
+2024-12-13 15:49:53,472 [INFO] Receiver thread was not running.
+2024-12-13 15:49:53,473 [INFO] Receiver thread stopped successfully.
+2024-12-13 15:49:53,473 [INFO] Receiver stopped.
+2024-12-13 15:49:53,575 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:49:53,576 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:53,584 [INFO] Receiver restarted successfully.
+2024-12-13 15:49:53,676 [INFO] Reception restarted successfully.
+2024-12-13 15:49:54,102 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:54] "POST /api/restart_reception HTTP/1.1" 200 -
+2024-12-13 15:49:56,818 [INFO] Restarting receiver...
+2024-12-13 15:49:56,864 [DEBUG] Stopping receiver thread.
+2024-12-13 15:49:56,895 [INFO] Stopping receiver thread...
+2024-12-13 15:49:56,911 [INFO] Receiver stopped.
+2024-12-13 15:49:56,979 [INFO] Receiver thread was not running.
+2024-12-13 15:49:56,980 [INFO] Receiver thread stopped successfully.
+2024-12-13 15:49:56,981 [INFO] Receiver stopped.
+2024-12-13 15:49:57,083 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:49:57,083 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:49:57,084 [INFO] Receiver restarted successfully.
+2024-12-13 15:49:57,147 [INFO] Reception restarted successfully.
+2024-12-13 15:49:57,163 [INFO] 127.0.0.1 - - [13/Dec/2024 15:49:57] "POST /api/restart_reception HTTP/1.1" 200 -
+2024-12-13 15:57:17,980 [INFO] 127.0.0.1 - - [13/Dec/2024 15:57:17] "GET /socket.io/?EIO=4&transport=websocket&sid=VHVr84Ny6E_zIK_0AAAA HTTP/1.1" 200 -
+2024-12-13 15:57:30,219 [INFO] 127.0.0.1 - - [13/Dec/2024 15:57:30] "GET /socket.io/?EIO=4&transport=polling&t=PF1p-su HTTP/1.1" 200 -
+2024-12-13 15:57:30,327 [INFO] A client has connected to the server.
+2024-12-13 15:57:30,375 [INFO] 127.0.0.1 - - [13/Dec/2024 15:57:30] "POST /socket.io/?EIO=4&transport=polling&t=PF1p--5&sid=rmjkvnv0vRZ9z9wnAAAC HTTP/1.1" 200 -
+2024-12-13 15:57:30,466 [INFO] 127.0.0.1 - - [13/Dec/2024 15:57:30] "GET /socket.io/?EIO=4&transport=polling&t=PF1p--6&sid=rmjkvnv0vRZ9z9wnAAAC HTTP/1.1" 200 -
+2024-12-13 15:58:13,149 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:13] "GET /socket.io/?EIO=4&transport=websocket&sid=rmjkvnv0vRZ9z9wnAAAC HTTP/1.1" 200 -
+2024-12-13 15:58:13,480 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:13] "GET / HTTP/1.1" 200 -
+2024-12-13 15:58:14,011 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:58:14,090 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:58:14,153 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:14] "GET /socket.io/?EIO=4&transport=polling&t=PF1q9hV HTTP/1.1" 200 -
+2024-12-13 15:58:14,233 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:14] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:58:14,295 [INFO] A client has connected to the server.
+2024-12-13 15:58:14,311 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:14] "POST /socket.io/?EIO=4&transport=polling&t=PF1q9jC&sid=XhfZMtZAzPvJdHF2AAAE HTTP/1.1" 200 -
+2024-12-13 15:58:14,345 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:14] "GET /socket.io/?EIO=4&transport=polling&t=PF1q9jD&sid=XhfZMtZAzPvJdHF2AAAE HTTP/1.1" 200 -
+2024-12-13 15:58:16,547 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:58:16,592 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:58:16,608 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:58:16,624 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:58:16,640 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:58:16,687 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:58:16,703 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:58:16,718 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:58:16,733 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:58:16,749 [INFO] Configuration parameter 'carrier_only' updated to 'True'.
+2024-12-13 15:58:16,764 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:58:16,780 [INFO] Configuration update completed.
+2024-12-13 15:58:16,936 [INFO] Configuration saved to config.json.
+2024-12-13 15:58:16,952 [INFO] Carrier Only setting changed to True.
+2024-12-13 15:58:16,967 [INFO] Stopping receiver thread...
+2024-12-13 15:58:16,983 [INFO] Receiver stopped.
+2024-12-13 15:58:17,077 [INFO] Receiver thread was not running.
+2024-12-13 15:58:17,078 [INFO] Receiver stopped.
+2024-12-13 15:58:17,583 [INFO] Carrier-only transmission thread started.
+2024-12-13 15:58:17,602 [INFO] Carrier Transmission started.
+2024-12-13 15:58:17,602 [INFO] Configuration applied successfully.
+2024-12-13 15:58:17,603 [INFO] Configuration updated successfully.
+2024-12-13 15:58:17,604 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:17] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:58:17,607 [INFO] Carrier-only transmission started.
+2024-12-13 15:58:18,950 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "GET /socket.io/?EIO=4&transport=websocket&sid=XhfZMtZAzPvJdHF2AAAE HTTP/1.1" 200 -
+2024-12-13 15:58:18,959 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "GET / HTTP/1.1" 200 -
+2024-12-13 15:58:18,974 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:58:18,975 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:58:18,982 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "GET /socket.io/?EIO=4&transport=polling&t=PF1qAta HTTP/1.1" 200 -
+2024-12-13 15:58:18,983 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:58:18,986 [INFO] A client has connected to the server.
+2024-12-13 15:58:18,986 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "POST /socket.io/?EIO=4&transport=polling&t=PF1qAtf&sid=F0RMSbqhBrXp4lckAAAG HTTP/1.1" 200 -
+2024-12-13 15:58:18,987 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:18] "GET /socket.io/?EIO=4&transport=polling&t=PF1qAtf.0&sid=F0RMSbqhBrXp4lckAAAG HTTP/1.1" 200 -
+2024-12-13 15:58:20,810 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 15:58:20,810 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 15:58:20,811 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 15:58:20,811 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 15:58:20,812 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 15:58:20,813 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 15:58:20,813 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 15:58:20,814 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 15:58:20,814 [INFO] Configuration parameter 'send_port' updated to '14582'.
+2024-12-13 15:58:20,815 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 15:58:20,816 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 15:58:20,816 [INFO] Configuration update completed.
+2024-12-13 15:58:20,818 [INFO] Configuration saved to config.json.
+2024-12-13 15:58:20,818 [INFO] Carrier Only setting changed to False.
+2024-12-13 15:58:20,818 [INFO] Stopping Carrier Transmission...
+2024-12-13 15:58:22,896 [INFO] Carrier-only transmission stopped.
+2024-12-13 15:58:22,897 [INFO] Carrier-only transmission thread stopped.
+2024-12-13 15:58:22,897 [INFO] Carrier Transmission stopped.
+2024-12-13 15:58:22,999 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:58:22,999 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:58:23,016 [INFO] Configuration applied successfully.
+2024-12-13 15:58:23,125 [INFO] Configuration updated successfully.
+2024-12-13 15:58:23,157 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:23] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 15:58:23,641 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:23] "GET / HTTP/1.1" 200 -
+2024-12-13 15:58:23,703 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:23] "GET /socket.io/?EIO=4&transport=websocket&sid=F0RMSbqhBrXp4lckAAAG HTTP/1.1" 200 -
+2024-12-13 15:58:23,737 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 15:58:23,811 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 15:58:23,997 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:23] "GET /socket.io/?EIO=4&transport=polling&t=PF1qC3b HTTP/1.1" 200 -
+2024-12-13 15:58:24,030 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:24] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 15:58:24,200 [INFO] A client has connected to the server.
+2024-12-13 15:58:24,215 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:24] "POST /socket.io/?EIO=4&transport=polling&t=PF1qC7-&sid=LvwbRW5QHkh03ZlGAAAI HTTP/1.1" 200 -
+2024-12-13 15:58:24,293 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:24] "GET /socket.io/?EIO=4&transport=polling&t=PF1qC7_&sid=LvwbRW5QHkh03ZlGAAAI HTTP/1.1" 200 -
+2024-12-13 15:58:24,495 [INFO] 127.0.0.1 - - [13/Dec/2024 15:58:24] "GET /socket.io/?EIO=4&transport=polling&t=PF1qCCX&sid=LvwbRW5QHkh03ZlGAAAI HTTP/1.1" 200 -
+2024-12-13 16:00:28,757 [INFO] 127.0.0.1 - - [13/Dec/2024 16:00:28] "GET /socket.io/?EIO=4&transport=websocket&sid=LvwbRW5QHkh03ZlGAAAI HTTP/1.1" 200 -
+2024-12-13 16:00:30,918 [INFO] 127.0.0.1 - - [13/Dec/2024 16:00:30] "GET /socket.io/?EIO=4&transport=polling&t=PF1qgwf HTTP/1.1" 200 -
+2024-12-13 16:00:30,967 [INFO] A client has connected to the server.
+2024-12-13 16:00:31,008 [INFO] 127.0.0.1 - - [13/Dec/2024 16:00:31] "POST /socket.io/?EIO=4&transport=polling&t=PF1qh5X&sid=w0XILcfVDhrSpgp3AAAK HTTP/1.1" 200 -
+2024-12-13 16:00:31,066 [INFO] 127.0.0.1 - - [13/Dec/2024 16:00:31] "GET /socket.io/?EIO=4&transport=polling&t=PF1qh5X.0&sid=w0XILcfVDhrSpgp3AAAK HTTP/1.1" 200 -
+2024-12-13 16:00:42,134 [INFO] Configuration loaded from config.json.
+2024-12-13 16:00:42,134 [DEBUG] Using proactor: IocpProactor
+2024-12-13 16:00:42,141 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 16:00:42,141 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 16:00:42,141 [DEBUG] Using proactor: IocpProactor
+2024-12-13 16:00:42,149 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 16:00:42,149 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 16:00:42,712 [INFO] Backend thread started.
+2024-12-13 16:00:43,842 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 16:00:43,874 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 16:00:44,049 [INFO] 127.0.0.1 - - [13/Dec/2024 16:00:44] "GET /socket.io/?EIO=4&transport=polling&t=PF1qjcV HTTP/1.1" 200 -
+2024-12-13 16:00:44,156 [INFO] A client has connected to the server.
+2024-12-13 16:00:44,174 [INFO] 127.0.0.1 - - [13/Dec/2024 16:00:44] "POST /socket.io/?EIO=4&transport=polling&t=PF1qkJD&sid=HyX3r1RlIrfmg7qIAAAA HTTP/1.1" 200 -
+2024-12-13 16:00:44,256 [INFO] 127.0.0.1 - - [13/Dec/2024 16:00:44] "GET /socket.io/?EIO=4&transport=polling&t=PF1qkJE&sid=HyX3r1RlIrfmg7qIAAAA HTTP/1.1" 200 -
+2024-12-13 16:00:54,762 [INFO] Receiver received message: VE2FPD>VE2FPD:('TEST 123!', 50, 4, 0, False)
+2024-12-13 16:01:10,321 [INFO] Receiver received message: VE2FPD>VE2FPD:('TEST 123!', 50, 4, 0, False)
+2024-12-13 16:01:19,323 [DEBUG] Received single message with carrier_only=False
+2024-12-13 16:01:19,324 [INFO] Processing message: test123
+2024-12-13 16:01:19,324 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 16:01:19,356 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 16:01:19,374 [DEBUG] Audio data type before processing: float32
+2024-12-13 16:01:19,383 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 16:01:19,407 [DEBUG] Audio normalization not required.
+2024-12-13 16:01:19,514 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 16:01:19,597 [INFO] Stopping receiver thread...
+2024-12-13 16:01:19,613 [INFO] Receiver stopped.
+2024-12-13 16:01:19,613 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 16:01:19,615 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 16:01:19,632 [INFO] WAV files generated successfully.
+2024-12-13 16:01:20,250 [INFO] Receiver thread was not running.
+2024-12-13 16:01:20,250 [INFO] Receiver stopped before transmission.
+2024-12-13 16:01:20,385 [INFO] Transmission started.
+2024-12-13 16:01:20,387 [DEBUG] Transmission thread started.
+2024-12-13 16:01:21,453 [INFO] Transmission done.
+2024-12-13 16:01:21,464 [INFO] Transmission stopped.
+2024-12-13 16:01:21,465 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 16:01:21,485 [INFO] Receiver thread restarted.
+2024-12-13 16:01:21,494 [DEBUG] Using proactor: IocpProactor
+2024-12-13 16:01:33,097 [INFO] Configuration parameter 'frequency_hz' updated to '144390000'.
+2024-12-13 16:01:33,177 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 16:01:33,259 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 16:01:33,287 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 16:01:33,304 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 16:01:33,337 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 16:01:33,355 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 16:01:33,371 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 16:01:33,387 [INFO] Configuration parameter 'send_port' updated to '14583'.
+2024-12-13 16:01:33,404 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 16:01:33,412 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 16:01:33,421 [INFO] Configuration update completed.
+2024-12-13 16:01:33,521 [INFO] Configuration saved to config.json.
+2024-12-13 16:01:33,603 [INFO] Send IP or Port changed. New IP: 127.0.0.1, New Port: 14583.
+2024-12-13 16:01:33,651 [INFO] UDP Listener started on 127.0.0.1:14583.
+2024-12-13 16:01:33,670 [INFO] UDP listener thread started on 127.0.0.1:14583.
+2024-12-13 16:01:33,737 [INFO] UDP Listener restarted with IP: 127.0.0.1 and Port: 14583.
+2024-12-13 16:01:33,753 [INFO] Configuration applied successfully.
+2024-12-13 16:01:33,785 [INFO] Configuration updated successfully.
+2024-12-13 16:01:33,801 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:33] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 16:01:35,037 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:35] "GET /socket.io/?EIO=4&transport=websocket&sid=HyX3r1RlIrfmg7qIAAAA HTTP/1.1" 200 -
+2024-12-13 16:01:35,215 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:35] "GET / HTTP/1.1" 200 -
+2024-12-13 16:01:35,594 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 16:01:35,749 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 16:01:35,877 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:35] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 16:01:35,894 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:35] "GET /socket.io/?EIO=4&transport=polling&t=PF1qwxE HTTP/1.1" 200 -
+2024-12-13 16:01:36,106 [INFO] A client has connected to the server.
+2024-12-13 16:01:36,163 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:36] "POST /socket.io/?EIO=4&transport=polling&t=PF1qw-g&sid=JucwULnawa0liMl8AAAC HTTP/1.1" 200 -
+2024-12-13 16:01:36,172 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:36] "GET /socket.io/?EIO=4&transport=polling&t=PF1qw-h&sid=JucwULnawa0liMl8AAAC HTTP/1.1" 200 -
+2024-12-13 16:01:36,252 [INFO] 127.0.0.1 - - [13/Dec/2024 16:01:36] "GET /socket.io/?EIO=4&transport=polling&t=PF1qx1U&sid=JucwULnawa0liMl8AAAC HTTP/1.1" 200 -
+2024-12-13 16:01:44,565 [DEBUG] Received single message with carrier_only=False
+2024-12-13 16:01:44,581 [INFO] Processing message: test123
+2024-12-13 16:01:44,647 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 16:01:44,680 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 16:01:44,722 [DEBUG] Audio data type before processing: float32
+2024-12-13 16:01:44,730 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 16:01:44,779 [DEBUG] Audio normalization not required.
+2024-12-13 16:01:44,779 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 16:01:44,919 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 16:01:44,953 [INFO] Stopping receiver thread...
+2024-12-13 16:01:44,961 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 16:01:44,970 [INFO] Receiver stopped.
+2024-12-13 16:01:44,979 [INFO] WAV files generated successfully.
+2024-12-13 16:01:45,636 [INFO] Receiver thread was not running.
+2024-12-13 16:01:45,636 [INFO] Receiver stopped before transmission.
+2024-12-13 16:01:45,773 [INFO] Transmission started.
+2024-12-13 16:01:45,780 [DEBUG] Transmission thread started.
+2024-12-13 16:01:46,845 [INFO] Transmission done.
+2024-12-13 16:01:46,853 [INFO] Transmission stopped.
+2024-12-13 16:01:46,854 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 16:01:46,854 [INFO] Receiver thread restarted.
+2024-12-13 16:01:46,854 [DEBUG] Using proactor: IocpProactor
+2024-12-13 16:02:01,236 [INFO] Receiver received message: VE2FPD>VE2FPD:('TEST 123!', 50, 4, 0, False)
+2024-12-13 16:02:16,412 [INFO] Restarting receiver...
+2024-12-13 16:02:16,420 [DEBUG] Stopping receiver thread.
+2024-12-13 16:02:16,438 [INFO] Stopping receiver thread...
+2024-12-13 16:02:16,453 [INFO] Receiver stopped.
+2024-12-13 16:02:16,558 [INFO] Receiver thread was not running.
+2024-12-13 16:02:16,558 [INFO] Receiver thread stopped successfully.
+2024-12-13 16:02:16,558 [INFO] Receiver stopped.
+2024-12-13 16:02:17,195 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 16:02:17,195 [INFO] Receiver restarted successfully.
+2024-12-13 16:02:17,196 [DEBUG] Using proactor: IocpProactor
+2024-12-13 16:02:17,225 [INFO] Reception restarted successfully.
+2024-12-13 16:02:17,308 [INFO] 127.0.0.1 - - [13/Dec/2024 16:02:17] "POST /api/restart_reception HTTP/1.1" 200 -
+2024-12-13 16:02:22,925 [DEBUG] Received single message with carrier_only=False
+2024-12-13 16:02:22,973 [INFO] Processing message: test123
+2024-12-13 16:02:23,016 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 16:02:23,032 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 16:02:23,066 [DEBUG] Audio data type before processing: float32
+2024-12-13 16:02:23,075 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 16:02:23,084 [DEBUG] Audio normalization not required.
+2024-12-13 16:02:23,100 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 16:02:23,182 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 16:02:23,182 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 16:02:23,248 [INFO] WAV files generated successfully.
+2024-12-13 16:02:23,485 [INFO] Stopping receiver thread...
+2024-12-13 16:02:23,503 [INFO] Receiver stopped.
+2024-12-13 16:02:23,609 [INFO] Receiver thread was not running.
+2024-12-13 16:02:23,609 [INFO] Receiver stopped before transmission.
+2024-12-13 16:02:23,758 [INFO] Transmission started.
+2024-12-13 16:02:23,766 [DEBUG] Transmission thread started.
+2024-12-13 16:02:24,833 [INFO] Transmission done.
+2024-12-13 16:02:24,839 [INFO] Transmission stopped.
+2024-12-13 16:02:24,841 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 16:02:24,841 [DEBUG] Using proactor: IocpProactor
+2024-12-13 16:02:24,849 [INFO] Receiver thread restarted.
+2024-12-13 16:02:53,191 [INFO] Configuration parameter 'frequency_hz' updated to '50100000'.
+2024-12-13 16:02:53,199 [INFO] Configuration parameter 'gain' updated to '14'.
+2024-12-13 16:02:53,234 [INFO] Configuration parameter 'if_gain' updated to '47'.
+2024-12-13 16:02:53,247 [INFO] Configuration parameter 'callsign_source' updated to 'VE2FPD'.
+2024-12-13 16:02:53,296 [INFO] Configuration parameter 'callsign_dest' updated to 'APRS'.
+2024-12-13 16:02:53,329 [INFO] Configuration parameter 'flags_before' updated to '50'.
+2024-12-13 16:02:53,339 [INFO] Configuration parameter 'flags_after' updated to '4'.
+2024-12-13 16:02:53,595 [INFO] Configuration parameter 'send_ip' updated to '127.0.0.1'.
+2024-12-13 16:02:53,611 [INFO] Configuration parameter 'send_port' updated to '14583'.
+2024-12-13 16:02:53,647 [INFO] Configuration parameter 'carrier_only' updated to 'False'.
+2024-12-13 16:02:53,647 [INFO] Configuration parameter 'device_index' updated to '0'.
+2024-12-13 16:02:53,685 [INFO] Configuration update completed.
+2024-12-13 16:02:53,803 [INFO] Configuration saved to config.json.
+2024-12-13 16:02:53,828 [INFO] Frequency updated to 50100000 Hz.
+2024-12-13 16:02:53,844 [INFO] Stopping receiver thread...
+2024-12-13 16:02:53,861 [INFO] Receiver stopped.
+2024-12-13 16:02:54,518 [INFO] Receiver thread was not running.
+2024-12-13 16:02:54,518 [INFO] Receiver stopped.
+2024-12-13 16:02:54,624 [INFO] Receiver thread started on device 0 at 50100000.00 Hz.
+2024-12-13 16:02:54,624 [DEBUG] Using proactor: IocpProactor
+2024-12-13 16:02:54,681 [INFO] Receiver restarted.
+2024-12-13 16:02:54,761 [INFO] Configuration applied successfully.
+2024-12-13 16:02:54,842 [INFO] Configuration updated successfully.
+2024-12-13 16:02:55,304 [INFO] 127.0.0.1 - - [13/Dec/2024 16:02:55] "POST /api/config HTTP/1.1" 200 -
+2024-12-13 16:03:12,818 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:12] "GET /socket.io/?EIO=4&transport=websocket&sid=JucwULnawa0liMl8AAAC HTTP/1.1" 200 -
+2024-12-13 16:03:12,958 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:12] "GET / HTTP/1.1" 200 -
+2024-12-13 16:03:13,170 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-13 16:03:13,478 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-12-13 16:03:13,659 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:13] "GET /api/config HTTP/1.1" 200 -
+2024-12-13 16:03:13,659 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:13] "GET /socket.io/?EIO=4&transport=polling&t=PF1rInx HTTP/1.1" 200 -
+2024-12-13 16:03:14,145 [INFO] A client has connected to the server.
+2024-12-13 16:03:14,194 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:14] "POST /socket.io/?EIO=4&transport=polling&t=PF1rIvM&sid=WtNasm2m8p8hnBCRAAAE HTTP/1.1" 200 -
+2024-12-13 16:03:14,661 [INFO] 127.0.0.1 - - [13/Dec/2024 16:03:14] "GET /socket.io/?EIO=4&transport=polling&t=PF1rIvM.0&sid=WtNasm2m8p8hnBCRAAAE HTTP/1.1" 200 -
+2024-12-13 16:03:50,787 [INFO] Receiver received message: VE2FPD>VE2FPD:('TEST 123!', 50, 4, 0, False)
