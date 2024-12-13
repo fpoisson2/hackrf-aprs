@@ -199,12 +199,15 @@ class AFSKReceiver(gr.top_block):
 
 
 async def consume_ax25(ax25_q, received_message_queue):
+    print("allo")
     try:
         while True:
+            
             ax25_msg = await ax25_q.get()
             ax25_q.task_done()
             if ax25_msg is None:
                 break
+            print("AX.25 message received:", ax25_msg)  # Debugging message
             received_message_queue.put(str(ax25_msg))
             await asyncio.sleep(0)
     except asyncio.CancelledError:
@@ -248,16 +251,18 @@ def start_receiver(stop_event, received_message_queue, device_index=0, frequency
         ]
 
         try:
-            # Keep running until the stop event is triggered
+            print("Running the event loop...")
             while not stop_event.is_set():
-                stop_event.wait()
+                loop.run_until_complete(asyncio.sleep(0.1))
+        except asyncio.CancelledError:
+            print("Event loop cancelled.")
         finally:
-            # Cancel tasks and stop the flowgraph gracefully
+            # Signal tasks to stop
             for t in tasks:
                 t.cancel()
-            tb.stop_and_wait()  # Ensure the flowgraph is properly stopped
-            tb.wait()  # Ensure we wait for the flowgraph to fully stop
-            print("Receiver flowgraph stopped and cleaned up.")
+
+            # Stop the flowgraph gracefully
+            tb.stop_and_wait()
 
             # Clean up the event loop
             loop.run_until_complete(asyncio.gather(*tasks, return_exceptions=True))

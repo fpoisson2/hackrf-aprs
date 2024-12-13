@@ -3,3 +3,5 @@
 memoize.json
 *.wav
 /.venv
+*.pyc
+*.pyc
