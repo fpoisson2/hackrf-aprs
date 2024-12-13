@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 # Initialize Flask and SocketIO
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key_here'  # Replace with your secret key
-socketio = SocketIO(app, cors_allowed_origins="*")  # Adjust CORS as necessary
+socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')  # Adjust CORS as necessary
 
 # Initialize Backend
 backend = Backend(config_file='config.json', socketio=socketio)

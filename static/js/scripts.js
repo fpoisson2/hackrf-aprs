@@ -17,11 +17,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const saveConfigBtn = document.getElementById('save-config');
     const receivedMessages = document.getElementById('received-messages');
 
+    // Define configParams globally to ensure consistency
+    const configParams = [
+        { label: "Frequency (Hz)", key: "frequency_hz", type: "number" },
+        { label: "Gain", key: "gain", type: "number" },
+        { label: "IF Gain", key: "if_gain", type: "number" },
+        { label: "Source Callsign", key: "callsign_source", type: "text" },
+        { label: "Destination Callsign", key: "callsign_dest", type: "text" },
+        { label: "Flags Before", key: "flags_before", type: "number" },
+        { label: "Flags After", key: "flags_after", type: "number" },
+        { label: "Send IP", key: "send_ip", type: "text" },
+        { label: "Send Port", key: "send_port", type: "number" },
+        { label: "Carrier Only", key: "carrier_only", type: "checkbox" },
+        { label: "Device Index", key: "device_index", type: "number" },
+    ];
+
     // Fetch and display configuration
     fetch('/api/config')
         .then(response => response.json())
         .then(config => {
             if (config.status === 'success') {
+                console.log("Fetched Configuration:", config.config); // Debugging
                 populateConfigForm(config.config);
             } else {
                 console.error('Failed to fetch configuration:', config.message);
@@ -31,20 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Populate the configuration form
     function populateConfigForm(config) {
-        const configParams = [
-            { label: "Frequency (Hz)", key: "frequency_hz", type: "number" },
-            { label: "Gain", key: "gain", type: "number" },
-            { label: "IF Gain", key: "if_gain", type: "number" },
-            { label: "Source Callsign", key: "callsign_source", type: "text" },
-            { label: "Destination Callsign", key: "callsign_dest", type: "text" },
-            { label: "Flags Before", key: "flags_before", type: "number" },
-            { label: "Flags After", key: "flags_after", type: "number" },
-            { label: "Send IP", key: "send_ip", type: "text" },
-            { label: "Send Port", key: "send_port", type: "number" },
-            { label: "Carrier Only", key: "carrier_only", type: "checkbox" },
-            { label: "Device Index", key: "device_index", type: "number" },
-        ];
-
         configParams.forEach(param => {
             const div = document.createElement('div');
             div.classList.add('form-group');
@@ -54,41 +56,45 @@ document.addEventListener('DOMContentLoaded', () => {
             label.htmlFor = param.key;
             div.appendChild(label);
 
+            let input;
             if (param.type === 'checkbox') {
-                const input = document.createElement('input');
+                input = document.createElement('input');
                 input.type = 'checkbox';
                 input.id = param.key;
                 input.name = param.key;
-                input.checked = config[param.key];
-                div.appendChild(input);
+                // Ensure boolean value
+                input.checked = Boolean(config[param.key]);
             } else {
-                const input = document.createElement('input');
+                input = document.createElement('input');
                 input.type = param.type;
                 input.id = param.key;
                 input.name = param.key;
-                input.value = config[param.key];
-                div.appendChild(input);
+                input.value = config[param.key] !== undefined ? config[param.key] : '';
             }
 
+            div.appendChild(input);
             configForm.appendChild(div);
         });
     }
 
     // Save configuration
     saveConfigBtn.addEventListener('click', () => {
-        const formData = new FormData(configForm);
         const config = {};
 
-        formData.forEach((value, key) => {
-            const input = document.getElementById(key);
-            if (input.type === 'checkbox') {
-                config[key] = input.checked;
-            } else if (input.type === 'number') {
-                config[key] = parseFloat(value);
+        configParams.forEach(param => {
+            const input = document.getElementById(param.key);
+            if (param.type === 'checkbox') {
+                config[param.key] = input.checked;
+            } else if (param.type === 'number') {
+                const value = input.value;
+                // Handle empty number fields gracefully
+                config[param.key] = value === '' ? null : parseFloat(value);
             } else {
-                config[key] = value.trim();
+                config[param.key] = input.value.trim();
             }
         });
+
+        console.log("Configuration to be sent:", config); // Debugging
 
         fetch('/api/config', {
             method: 'POST',

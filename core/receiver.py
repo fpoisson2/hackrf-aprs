@@ -252,16 +252,17 @@ def start_receiver(stop_event, received_message_queue, device_index=0, frequency
 
         try:
             print("Running the event loop...")
-            loop.run_forever()
+            while not stop_event.is_set():
+                loop.run_until_complete(asyncio.sleep(0.1))
         except asyncio.CancelledError:
             print("Event loop cancelled.")
         finally:
-            # Cancel tasks and stop the flowgraph gracefully
+            # Signal tasks to stop
             for t in tasks:
                 t.cancel()
-            tb.stop_and_wait()  # Ensure the flowgraph is properly stopped
-            tb.wait()  # Ensure we wait for the flowgraph to fully stop
-            print("Receiver flowgraph stopped and cleaned up.")
+
+            # Stop the flowgraph gracefully
+            tb.stop_and_wait()
 
             # Clean up the event loop
             loop.run_until_complete(asyncio.gather(*tasks, return_exceptions=True))

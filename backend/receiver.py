@@ -1,8 +1,6 @@
-# backend/receiver.py
-
 import threading
 import logging
-from typing import Any, Dict
+from typing import Any
 import queue  # Import the queue module
 
 from core.udp_listener import udp_listener  # Assuming this is defined in core
@@ -46,10 +44,8 @@ class Receiver:
                     # Process the message here (e.g., log or handle the received data)
                     logger.info(f"Receiver received message: {message}")
                     self.backend.socketio.emit('aprs_message', {'message': message})
-                    logger.info("SocketIO Event Emitted: aprs_message - %s", message)
                 else:
-                    # If there's no message, we continue the loop (still receiving, waiting for messages)
-                    pass
+                    pass  # If no message, continue receiving
         except Exception as e:
             logger.error("Error during receiving: %s", e)
             self.backend.socketio.emit('system_error', {'message': f"Receiver error: {e}"})
@@ -59,11 +55,13 @@ class Receiver:
             logger.info("Receiver stopped.")
 
     def start(self):
+        """Start the receiver thread."""
         self.thread.start()
         logger.info("Receiver thread started on device %d at %.2f Hz.", self.device_index, self.frequency)
         self.backend.socketio.emit('reception_status', {'status': 'active'})
 
     def stop(self):
+        """Stop the receiver thread."""
         logger.info("Stopping receiver thread...")
         self.stop_event.set()
         reset_hackrf()  # Ensure HackRF is reset before joining the thread
