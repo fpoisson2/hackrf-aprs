@@ -17700,3 +17700,248 @@ AttributeError: 'Receiver' object has no attribute 'join'
 2024-12-13 15:12:38,536 [INFO] A client has connected to the server.
 2024-12-13 15:12:38,551 [INFO] 127.0.0.1 - - [13/Dec/2024 15:12:38] "POST /socket.io/?EIO=4&transport=polling&t=PF1fjoQ&sid=yK3x7OYioyyv5qq8AAAM HTTP/1.1" 200 -
 2024-12-13 15:12:38,553 [INFO] 127.0.0.1 - - [13/Dec/2024 15:12:38] "GET /socket.io/?EIO=4&transport=polling&t=PF1fjoR&sid=yK3x7OYioyyv5qq8AAAM HTTP/1.1" 200 -
+2024-12-13 15:20:18,399 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:20:18,424 [INFO] Processing message: test123
+2024-12-13 15:20:18,466 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:20:18,543 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:20:18,570 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:20:18,636 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:20:18,714 [DEBUG] Audio normalization not required.
+2024-12-13 15:20:18,761 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:20:18,902 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:20:18,902 [INFO] Stopping receiver thread...
+2024-12-13 15:20:18,949 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:20:18,981 [INFO] Receiver stopped.
+2024-12-13 15:20:18,995 [INFO] WAV files generated successfully.
+2024-12-13 15:20:19,071 [INFO] Receiver thread was not running.
+2024-12-13 15:20:19,071 [INFO] Receiver stopped before transmission.
+2024-12-13 15:20:19,126 [ERROR] HackRF initialization failed.
+2024-12-13 15:20:19,126 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:20:19,126 [INFO] Receiver thread restarted.
+2024-12-13 15:20:19,156 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:26,209 [INFO] Configuration loaded from config.json.
+2024-12-13 15:20:26,209 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:26,209 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:20:26,209 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:20:26,209 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:26,219 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:20:26,239 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:20:26,309 [INFO] Backend thread started.
+2024-12-13 15:20:27,721 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:20:27,731 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:20:27,782 [INFO] 127.0.0.1 - - [13/Dec/2024 15:20:27] "GET /socket.io/?EIO=4&transport=polling&t=PF1hW0A HTTP/1.1" 200 -
+2024-12-13 15:20:27,842 [INFO] A client has connected to the server.
+2024-12-13 15:20:27,872 [INFO] 127.0.0.1 - - [13/Dec/2024 15:20:27] "POST /socket.io/?EIO=4&transport=polling&t=PF1hWOI&sid=ASPU_q8JO5UXa2y0AAAA HTTP/1.1" 200 -
+2024-12-13 15:20:27,892 [INFO] 127.0.0.1 - - [13/Dec/2024 15:20:27] "GET /socket.io/?EIO=4&transport=polling&t=PF1hWOJ&sid=ASPU_q8JO5UXa2y0AAAA HTTP/1.1" 200 -
+2024-12-13 15:20:30,865 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:20:30,885 [INFO] Processing message: test123
+2024-12-13 15:20:30,905 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:20:30,915 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:20:30,925 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:20:30,925 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:20:30,955 [DEBUG] Audio normalization not required.
+2024-12-13 15:20:30,955 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:20:31,036 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:20:31,046 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:20:31,046 [INFO] Stopping receiver thread...
+2024-12-13 15:20:31,075 [INFO] Receiver stopped.
+2024-12-13 15:20:31,075 [INFO] WAV files generated successfully.
+2024-12-13 15:20:31,175 [INFO] Receiver thread was not running.
+2024-12-13 15:20:31,175 [INFO] Receiver stopped before transmission.
+2024-12-13 15:20:31,195 [INFO] Transmission started.
+2024-12-13 15:20:31,205 [DEBUG] Transmission thread started.
+2024-12-13 15:20:32,265 [INFO] Transmission done.
+2024-12-13 15:20:32,275 [INFO] Transmission stopped.
+2024-12-13 15:20:32,275 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:20:32,275 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:32,285 [INFO] Receiver thread restarted.
+2024-12-13 15:20:34,588 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:20:34,608 [INFO] Processing message: test123
+2024-12-13 15:20:34,638 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:20:34,658 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:20:34,678 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:20:34,759 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:20:34,809 [DEBUG] Audio normalization not required.
+2024-12-13 15:20:34,839 [INFO] Stopping receiver thread...
+2024-12-13 15:20:34,859 [INFO] Receiver stopped.
+2024-12-13 15:20:34,859 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:20:34,859 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:20:34,859 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:20:34,869 [INFO] WAV files generated successfully.
+2024-12-13 15:20:34,919 [INFO] Receiver thread was not running.
+2024-12-13 15:20:34,919 [INFO] Receiver stopped before transmission.
+2024-12-13 15:20:34,940 [ERROR] HackRF initialization failed.
+2024-12-13 15:20:34,950 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:20:34,988 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:35,007 [INFO] Receiver thread restarted.
+2024-12-13 15:20:37,199 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:20:37,219 [INFO] Processing message: test123
+2024-12-13 15:20:37,249 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:20:37,259 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:20:37,269 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:20:37,279 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:20:37,359 [DEBUG] Audio normalization not required.
+2024-12-13 15:20:37,429 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:20:37,529 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:20:37,549 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:20:37,549 [INFO] Stopping receiver thread...
+2024-12-13 15:20:37,639 [INFO] Receiver stopped.
+2024-12-13 15:20:37,639 [INFO] WAV files generated successfully.
+2024-12-13 15:20:37,720 [INFO] Receiver thread was not running.
+2024-12-13 15:20:37,720 [INFO] Receiver stopped before transmission.
+2024-12-13 15:20:37,729 [INFO] Transmission started.
+2024-12-13 15:20:37,739 [DEBUG] Transmission thread started.
+2024-12-13 15:20:38,806 [INFO] Transmission done.
+2024-12-13 15:20:38,806 [INFO] Transmission stopped.
+2024-12-13 15:20:38,815 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:20:38,815 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:38,825 [INFO] Receiver thread restarted.
+2024-12-13 15:20:41,046 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:20:41,067 [INFO] Processing message: test123
+2024-12-13 15:20:41,106 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:20:41,126 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:20:41,186 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:20:41,197 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:20:41,247 [DEBUG] Audio normalization not required.
+2024-12-13 15:20:41,267 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:20:41,348 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:20:41,368 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:20:41,398 [INFO] Stopping receiver thread...
+2024-12-13 15:20:41,454 [INFO] Receiver stopped.
+2024-12-13 15:20:41,455 [INFO] WAV files generated successfully.
+2024-12-13 15:20:41,511 [INFO] Receiver thread was not running.
+2024-12-13 15:20:41,511 [INFO] Receiver stopped before transmission.
+2024-12-13 15:20:41,541 [ERROR] HackRF initialization failed.
+2024-12-13 15:20:41,541 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:20:41,541 [INFO] Receiver thread restarted.
+2024-12-13 15:20:41,541 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:45,150 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:20:45,160 [INFO] Processing message: test123
+2024-12-13 15:20:45,170 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:20:45,211 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:20:45,241 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:20:45,271 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:20:45,371 [DEBUG] Audio normalization not required.
+2024-12-13 15:20:45,432 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:20:45,537 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:20:45,537 [INFO] Stopping receiver thread...
+2024-12-13 15:20:45,567 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:20:45,598 [INFO] Receiver stopped.
+2024-12-13 15:20:45,598 [INFO] WAV files generated successfully.
+2024-12-13 15:20:45,627 [INFO] Receiver thread was not running.
+2024-12-13 15:20:45,627 [INFO] Receiver stopped before transmission.
+2024-12-13 15:20:45,647 [INFO] Transmission started.
+2024-12-13 15:20:45,658 [DEBUG] Transmission thread started.
+2024-12-13 15:20:46,719 [INFO] Transmission done.
+2024-12-13 15:20:46,729 [INFO] Transmission stopped.
+2024-12-13 15:20:46,729 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:20:46,729 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:20:46,739 [INFO] Receiver thread restarted.
+2024-12-13 15:21:33,870 [INFO] Configuration loaded from config.json.
+2024-12-13 15:21:33,870 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:21:33,870 [INFO] MessageProcessor initialized and event loop started.
+2024-12-13 15:21:33,870 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:21:33,870 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:21:33,910 [INFO] UDP Listener started on 127.0.0.1:14582.
+2024-12-13 15:21:33,921 [INFO] UDP listener thread started on 127.0.0.1:14582.
+2024-12-13 15:21:34,010 [INFO] Backend thread started.
+2024-12-13 15:21:34,975 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.91.11:5000
+2024-12-13 15:21:34,985 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-13 15:21:35,065 [INFO] 127.0.0.1 - - [13/Dec/2024 15:21:35] "GET /socket.io/?EIO=4&transport=polling&t=PF1hmN2 HTTP/1.1" 200 -
+2024-12-13 15:21:35,105 [INFO] A client has connected to the server.
+2024-12-13 15:21:35,125 [INFO] 127.0.0.1 - - [13/Dec/2024 15:21:35] "POST /socket.io/?EIO=4&transport=polling&t=PF1hmpl&sid=81IFcqgPPkZgJ-ziAAAA HTTP/1.1" 200 -
+2024-12-13 15:21:35,136 [INFO] 127.0.0.1 - - [13/Dec/2024 15:21:35] "GET /socket.io/?EIO=4&transport=polling&t=PF1hmpo&sid=81IFcqgPPkZgJ-ziAAAA HTTP/1.1" 200 -
+2024-12-13 15:21:38,593 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:21:38,603 [INFO] Processing message: test123
+2024-12-13 15:21:38,633 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:21:38,643 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:21:38,683 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:21:38,683 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:21:38,723 [DEBUG] Audio normalization not required.
+2024-12-13 15:21:38,743 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:21:38,843 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:21:38,863 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:21:38,884 [INFO] Stopping receiver thread...
+2024-12-13 15:21:38,894 [INFO] Receiver stopped.
+2024-12-13 15:21:38,894 [INFO] WAV files generated successfully.
+2024-12-13 15:21:38,974 [INFO] Receiver thread was not running.
+2024-12-13 15:21:38,974 [INFO] Receiver stopped before transmission.
+2024-12-13 15:21:38,994 [INFO] Transmission started.
+2024-12-13 15:21:39,004 [DEBUG] Transmission thread started.
+2024-12-13 15:21:40,071 [INFO] Transmission done.
+2024-12-13 15:21:40,080 [INFO] Transmission stopped.
+2024-12-13 15:21:40,184 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:21:40,184 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:21:40,202 [INFO] Receiver thread restarted.
+2024-12-13 15:21:41,726 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:21:41,736 [INFO] Processing message: test123
+2024-12-13 15:21:41,796 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:21:41,806 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:21:41,826 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:21:41,856 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:21:41,876 [DEBUG] Audio normalization not required.
+2024-12-13 15:21:41,886 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:21:41,976 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:21:41,996 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:21:42,107 [INFO] WAV files generated successfully.
+2024-12-13 15:21:42,198 [INFO] Stopping receiver thread...
+2024-12-13 15:21:42,218 [INFO] Receiver stopped.
+2024-12-13 15:21:42,309 [INFO] Receiver thread was not running.
+2024-12-13 15:21:42,309 [INFO] Receiver stopped before transmission.
+2024-12-13 15:21:42,329 [INFO] Transmission started.
+2024-12-13 15:21:42,329 [DEBUG] Transmission thread started.
+2024-12-13 15:21:43,396 [INFO] Transmission done.
+2024-12-13 15:21:43,406 [INFO] Transmission stopped.
+2024-12-13 15:21:43,510 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:21:43,510 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:21:43,537 [INFO] Receiver thread restarted.
+2024-12-13 15:21:45,462 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:21:45,482 [INFO] Processing message: test123
+2024-12-13 15:21:45,533 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:21:45,543 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:21:45,563 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:21:45,593 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:21:45,654 [DEBUG] Audio normalization not required.
+2024-12-13 15:21:45,684 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:21:45,744 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:21:45,774 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:21:45,895 [INFO] Stopping receiver thread...
+2024-12-13 15:21:45,895 [INFO] WAV files generated successfully.
+2024-12-13 15:21:45,905 [INFO] Receiver stopped.
+2024-12-13 15:21:45,985 [INFO] Receiver thread was not running.
+2024-12-13 15:21:45,985 [INFO] Receiver stopped before transmission.
+2024-12-13 15:21:46,005 [INFO] Transmission started.
+2024-12-13 15:21:46,015 [DEBUG] Transmission thread started.
+2024-12-13 15:21:47,082 [INFO] Transmission done.
+2024-12-13 15:21:47,092 [INFO] Transmission stopped.
+2024-12-13 15:21:47,194 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:21:47,194 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:21:47,214 [INFO] Receiver thread restarted.
+2024-12-13 15:21:47,626 [DEBUG] Received single message with carrier_only=False
+2024-12-13 15:21:47,646 [INFO] Processing message: test123
+2024-12-13 15:21:47,666 [DEBUG] Starting WAV generation for line: VE2FPD>APRS:test123
+2024-12-13 15:21:47,676 [INFO] Generating APRS WAV for message: VE2FPD>APRS:test123
+2024-12-13 15:21:47,707 [DEBUG] Audio data type before processing: float32
+2024-12-13 15:21:47,727 [DEBUG] Audio sample range before processing: -32767.0 to 32767.0
+2024-12-13 15:21:47,757 [DEBUG] Audio normalization not required.
+2024-12-13 15:21:47,797 [DEBUG] Audio sample range after normalization and clipping: -32767.0 to 32767.0
+2024-12-13 15:21:47,898 [INFO] WAV file successfully generated: raw_output.wav
+2024-12-13 15:21:47,929 [DEBUG] WAV generation completed. Adding silence.
+2024-12-13 15:21:48,069 [INFO] WAV files generated successfully.
+2024-12-13 15:21:48,130 [INFO] Stopping receiver thread...
+2024-12-13 15:21:48,150 [INFO] Receiver stopped.
+2024-12-13 15:21:48,230 [INFO] Receiver thread was not running.
+2024-12-13 15:21:48,230 [INFO] Receiver stopped before transmission.
+2024-12-13 15:21:48,260 [INFO] Transmission started.
+2024-12-13 15:21:48,260 [DEBUG] Transmission thread started.
+2024-12-13 15:21:49,328 [INFO] Transmission done.
+2024-12-13 15:21:49,340 [INFO] Transmission stopped.
+2024-12-13 15:21:49,443 [INFO] Receiver thread started on device 0 at 144390000.00 Hz.
+2024-12-13 15:21:49,443 [DEBUG] Using proactor: IocpProactor
+2024-12-13 15:21:49,449 [INFO] Receiver thread restarted.
