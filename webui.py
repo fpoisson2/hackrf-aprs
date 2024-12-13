@@ -1,5 +1,3 @@
-# webui.py
-
 from flask import Flask, render_template, jsonify, request
 from flask_socketio import SocketIO
 import threading
@@ -18,12 +16,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-
-
 # Initialize Flask and SocketIO
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key_here'  # Replace with your secret key
-socketio = SocketIO(app, cors_allowed_origins="*")  # Adjust CORS as necessary
+socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')  # Specify threading
 
 # Initialize Backend
 backend = Backend(config_file='config.json', socketio=socketio)
@@ -33,15 +29,9 @@ def handle_connect():
     print("Client connected")
     logger.info("A client has connected to the server.")
     # Optionally, emit initial system status or data to the client
-    socketio.emit('system_status', {'status': 'running'})
+    #socketio.emit('system_status', {'status': 'running'})
     # You can also send other statuses if needed
-    socketio.emit('reception_status', {'status': 'idle'})
-
-@socketio.on('aprs_message')
-def handle_aprs():
-    print("allo2")
-
-
+    #socketio.emit('reception_status', {'status': 'idle'})
 
 # Define routes
 @app.route('/')

@@ -273,4 +273,3 @@ def start_receiver(stop_event, received_message_queue, device_index=0, frequency
     receiver_thread = threading.Thread(target=run_receiver, daemon=True)
     receiver_thread.start()
     return receiver_thread
-

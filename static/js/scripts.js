@@ -17,11 +17,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const saveConfigBtn = document.getElementById('save-config');
     const receivedMessages = document.getElementById('received-messages');
 
+    // Define configParams globally to use in both populate and save functions
+    const configParams = [
+        { label: "Frequency (Hz)", key: "frequency_hz", type: "number" },
+        { label: "Gain", key: "gain", type: "number" },
+        { label: "IF Gain", key: "if_gain", type: "number" },
+        { label: "Source Callsign", key: "callsign_source", type: "text" },
+        { label: "Destination Callsign", key: "callsign_dest", type: "text" },
+        { label: "Flags Before", key: "flags_before", type: "number" },
+        { label: "Flags After", key: "flags_after", type: "number" },
+        { label: "Send IP", key: "send_ip", type: "text" },
+        { label: "Send Port", key: "send_port", type: "number" },
+        { label: "Carrier Only", key: "carrier_only", type: "checkbox" },
+        { label: "Device Index", key: "device_index", type: "number" },
+    ];
+
     // Fetch and display configuration
     fetch('/api/config')
         .then(response => response.json())
         .then(config => {
             if (config.status === 'success') {
+                console.log("Fetched Configuration:", config.config); // Debugging
                 populateConfigForm(config.config);
             } else {
                 console.error('Failed to fetch configuration:', config.message);
@@ -31,20 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Populate the configuration form
     function populateConfigForm(config) {
-        const configParams = [
-            { label: "Frequency (Hz)", key: "frequency_hz", type: "number" },
-            { label: "Gain", key: "gain", type: "number" },
-            { label: "IF Gain", key: "if_gain", type: "number" },
-            { label: "Source Callsign", key: "callsign_source", type: "text" },
-            { label: "Destination Callsign", key: "callsign_dest", type: "text" },
-            { label: "Flags Before", key: "flags_before", type: "number" },
-            { label: "Flags After", key: "flags_after", type: "number" },
-            { label: "Send IP", key: "send_ip", type: "text" },
-            { label: "Send Port", key: "send_port", type: "number" },
-            { label: "Carrier Only", key: "carrier_only", type: "checkbox" },
-            { label: "Device Index", key: "device_index", type: "number" },
-        ];
-
         configParams.forEach(param => {
             const div = document.createElement('div');
             div.classList.add('form-group');
@@ -59,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 input.type = 'checkbox';
                 input.id = param.key;
                 input.name = param.key;
-                input.checked = config[param.key];
+                input.checked = Boolean(config[param.key]);
                 div.appendChild(input);
             } else {
                 const input = document.createElement('input');
@@ -76,19 +78,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Save configuration
     saveConfigBtn.addEventListener('click', () => {
-        const formData = new FormData(configForm);
         const config = {};
 
-        formData.forEach((value, key) => {
-            const input = document.getElementById(key);
-            if (input.type === 'checkbox') {
-                config[key] = input.checked;
-            } else if (input.type === 'number') {
-                config[key] = parseFloat(value);
+        configParams.forEach(param => {
+            const input = document.getElementById(param.key);
+            if (param.type === 'checkbox') {
+                config[param.key] = input.checked;
+            } else if (param.type === 'number') {
+                const value = input.value;
+                config[param.key] = value === '' ? null : parseFloat(value);
             } else {
-                config[key] = value.trim();
+                config[param.key] = input.value.trim();
             }
         });
+
+        console.log("Configuration to be sent:", config); // Debugging
 
         fetch('/api/config', {
             method: 'POST',
@@ -209,6 +213,95 @@ document.addEventListener('DOMContentLoaded', () => {
     socket.on('backend_restarted', data => {
         alert(data.message);
     });
+
+// Example additions to static/js/scripts.js
+
+// Handle system shutdown initiation and completion
+socket.on('system_shutdown', data => {
+    if (data.status === 'initiating') {
+        alert('System is shutting down...');
+        // Optionally, disable form inputs and buttons
+    } else if (data.status === 'in_progress') {
+        console.log('Shutdown in progress...');
+        // Update UI to reflect shutdown progress
+    } else if (data.status === 'completed') {
+        alert('System shutdown completed.');
+        // Optionally, redirect to a different page or update UI elements
+    }
+});
+
+// Handle APRS queue setup
+socket.on('aprs_queue_set', data => {
+    if (data.status === 'set') {
+        console.log('APRS message queue has been set.');
+        // Optionally, update UI to reflect queue setup
+    }
+});
+
+// Handle carrier-only mode changes
+socket.on('carrier_only_mode', data => {
+    if (data.status === 'enabled') {
+        alert('Carrier-only mode has been enabled.');
+        // Update UI elements to reflect this mode
+    } else if (data.status === 'disabled') {
+        alert('Carrier-only mode has been disabled.');
+        // Revert UI elements back to normal mode
+    }
+});
+
+// Handle configuration applied successfully
+socket.on('config_applied', data => {
+    if (data.status === 'success') {
+        alert('Configuration has been successfully applied.');
+        // Update UI elements or perform actions based on new config
+    }
+});
+
+// Handle specific configuration updates
+socket.on('frequency_updated', data => {
+    console.log(`Frequency updated to ${data.frequency_hz} Hz.`);
+    // Update frequency display in UI
+});
+
+socket.on('device_index_updated', data => {
+    console.log(`Device index updated to ${data.device_index}.`);
+    // Update device index display in UI
+});
+
+socket.on('udp_listener_config_updated', data => {
+    console.log(`UDP Listener updated: IP=${data.send_ip}, Port=${data.send_port}`);
+    // Update UDP Listener configuration display in UI
+});
+
+socket.on('gain_updated', data => {
+    console.log(`Gain updated to ${data.gain}.`);
+    // Update gain display in UI
+});
+
+socket.on('if_gain_updated', data => {
+    console.log(`IF Gain updated to ${data.if_gain}.`);
+    // Update IF Gain display in UI
+});
+
+socket.on('carrier_only_updated', data => {
+    console.log(`Carrier Only setting updated to ${data.carrier_only}.`);
+    // Update carrier-only setting in UI
+});
+
+socket.on('other_config_updated', data => {
+    console.log('Other configuration parameters updated:', data.updated_params);
+    // Update corresponding UI elements
+});
+
+// Handle system errors
+socket.on('system_error', data => {
+    systemError.textContent = 'System Error: ' + data.message;
+    systemError.style.display = 'block';
+    systemError.style.color = 'red';
+    console.error('System Error:', data.message);
+    // Optionally, notify the user or take corrective actions
+});
+
 
     // Handle restart reception button
     restartReceptionBtn.addEventListener('click', () => {
